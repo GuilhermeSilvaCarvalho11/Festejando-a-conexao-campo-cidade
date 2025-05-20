@@ -1,0 +1,286 @@
+*{margin: 0;
+    padding: 0;
+}
+:root { 
+    --cor-de-fundo: #e4e6e7;
+    --branco: #FFFFFF;
+    --laranja: #E89800;
+    --vermelho: #be1f07;
+    --fonte-principal: "Poppins";
+    --preto: #000000;
+    --amarelo: #f6f7c7;
+}
+
+.body { 
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.cabecalho{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 0;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f5fff5;
+    color: rgb(255, 240, 240);
+    text-align: right;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.logo{
+    float:inline-start;
+    border-radius: 50%;
+    box-shadow: #bfe79f 0px 0px 10px;
+    transition: 0.5s;
+    width: 3%;
+    border-radius: 22px;
+    height: 3%;
+}
+
+.logo:hover {
+    transition: 0.5s;
+    box-shadow: #a8d692 0px 0px 20px;
+}
+
+
+.Informação-texto-um{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    padding:20px 0;
+}
+
+.Informação-texto-dois {
+    font-size: 20px;
+}
+
+.Informação-texto-tres {
+    display:inline-block;
+    font-size: 20px;
+
+}
+
+.agricultura-imagem2{
+    justify-self: end;
+    align-content: right;
+    width: 25%;
+    height: 450px;
+}
+
+.cabecalho-lista-item{
+    justify-content: center;
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 28px;
+}
+
+.cabecalho-lista-item a{
+    justify-content: end;
+    text-decoration: none;
+    color:rgb(49, 139, 69);
+}
+
+a:hover {
+    color: #37ec00;
+}
+
+a:active{
+    color: rgb(2, 245, 83);
+
+}
+
+.agricultura-imagem{
+    justify-self: end;
+    align-content: right;
+    width: 25%;
+    height: 450px;
+    
+}
+
+.agricultura{
+    width: 100%;
+    height: 450px;
+    background-image:linear-gradient( #fdfdfd, #afec93) ;
+    color: rgb(28, 87, 1);
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    padding: 24px 0;
+    
+}
+
+
+.agricultura2{
+    width: 100%;
+    height: 450px;
+    background-image:linear-gradient( #afec93, #fdfdfd) ;
+    color: rgb(28, 87, 1);
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    padding: 24px 0;
+}
+
+.informação-div-conteudo{
+    width: 45%;
+}
+
+.Agro-titulo{
+    padding:24px 0;
+    font-size: 35px;
+}
+
+.tipo__imagem {
+    height: 200px;
+    width: 200px;
+    border-radius: 30px;
+    background: rgb(173, 172, 171); 
+}
+
+.principal__box {
+    background-color: var(--branco);
+    height: 400px;
+    width: 950px;
+    margin: auto;
+}
+
+.titulo {
+    color: var(--preto) ;
+    text-align: center;
+    padding: 1em;
+    font-weight: 700;
+    
+}
+
+.box{
+   background: transparent;
+   display: inline-flex;  
+}
+ 
+.box__content{
+    background: transparent;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    transition: transform 600ms ease-in-out; 
+    margin: 3em 1em; 
+}
+
+.box__front, 
+.box__back {
+    position: absolute;
+    backface-visibility: hidden;   
+}
+
+.box__back{
+    background: rgb(173, 172, 171);
+    width: 200px;
+    height: 240px;
+    border-radius: 30px;
+    transform: rotateY(180deg);
+   
+}
+
+.box:hover .box__content {
+    transform: rotateY(180deg);
+    
+}
+
+/*para colocar o efeito na borda*/
+
+  .caixa {
+   margin: auto;
+    position: relative;
+    width: 50px;
+    height: 20px;
+    color: #151320;
+    background: #fff;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    font-weight: 700;
+}
+
+.caixa::before, .caixa::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: calc(100% + 5px);
+    height: calc(100% + 5px);
+    background: linear-gradient(45deg, #c3c4c4, #979696, #646364, 
+    #839a9f, #d7d8d8, #9f9f9f, #939292, #646364);
+    background-size: 300%;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    border-radius: 10px;
+    animation: AnimarBorda 4s linear infinite;
+    
+}
+
+@keyframes AnimarBorda {
+    0% {
+        background-position: 0;
+    }
+    100% {
+        background-position: 300%;
+    }
+}
+.caixa::after {
+    filter: blur(5px);
+}
+
+.caixa {
+    margin: auto;
+     position: relative;
+     width: 50px;
+     height: 20px;
+     color: #151320;
+     background: #fff;
+     display: flex;
+    justify-content: center;
+     align-items: center;
+     border-radius: 3px;
+     font-weight: 700;
+ }
+ 
+ .caixa::before, .caixa::after {
+     content: '';
+     position: absolute;
+     z-index: -1;
+     width: calc(100% + 5px);
+     height: calc(100% + 5px);
+     background: linear-gradient(45deg, #128686, #8d1313, #646364, 
+     #839a9f, #d7d8d8, #881111, #939292, #b91bb9);
+     background-size: 300%;
+     background-repeat: no-repeat;
+     background-position: 100%;
+     border-radius: 10px;
+     animation: AnimarBorda 4s linear infinite;
+     
+ }
+ 
+ @keyframes AnimarBorda {
+     0% {
+         background-position: 0;
+     }
+     100% {
+         background-position: 300%;
+     }
+ }
+ .caixa::after {
+     filter: blur(5px);
+ }
