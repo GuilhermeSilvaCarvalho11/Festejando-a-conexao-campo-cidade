@@ -1,107 +1,145 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>O Campo é o Futuro | Agrinho 2025</title>
-
-    <!-- Fontes e estilos -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>O Futuro Está no Campo</title>
     <link rel="stylesheet" href="style.css">
-
-    <!-- Animação ao rolar -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <!-- Header -->
+
+    <!-- Cabeçalho -->
     <header class="cabecalho">
         <div class="container">
-            <h1 class="logo">🌾 AgroFuturo</h1>
-            <nav>
-                <ul class="menu">
-                    <li><a href="#inicio">Início</a></li>
-                    <li><a href="#mudancas">Mudanças</a></li>
-                    <li><a href="#jovens">Jovens</a></li>
-                    <li><a href="#tecnologia">Tecnologia</a></li>
-                    <li><a href="#profissoes">Profissões</a></li>
-                    <li><a href="#quiz">Quiz</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-            </nav>
+            <div class="logo">🌾 AgroJovem</div>
+            <ul class="menu">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#juventude">Juventude</a></li>
+                <li><a href="#tecnologia">Tecnologia</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
         </div>
     </header>
 
     <!-- Hero -->
-    <section class="hero" id="inicio">
-        <div class="hero-text" data-aos="fade-right">
-            <h2>O Campo é o Futuro</h2>
-            <p>Mais do que plantar e colher, é onde a inovação e a juventude se encontram.</p>
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <h2>O Campo Está Chamando</h2>
+            <p>Juventude, tecnologia e oportunidades: um novo olhar sobre a vida rural.</p>
         </div>
-        <div class="hero-img" data-aos="fade-left">
-            <img src="img/campo-moderno.jpg" alt="Campo moderno com tecnologia">
-        </div>
-    </section>
-
-    <!-- Por que o campo está mudando -->
-    <section class="mudancas" id="mudancas">
-        <h2 data-aos="fade-up">Por que o campo está mudando?</h2>
-        <div class="mudancas-conteudo" data-aos="fade-up" data-aos-delay="100">
-            <p>Nos últimos anos, o campo deixou de ser apenas um espaço de produção tradicional. Com o avanço da tecnologia, a chegada da internet e a valorização da vida sustentável, o campo se tornou um novo horizonte de oportunidades para os jovens. É possível viver bem, empreender, estudar e crescer sem sair do interior.</p>
+        <div class="hero-img">
+            <img src="img/campo-moderno.jpg" alt="Campo moderno">
         </div>
     </section>
 
-    <!-- Jovens no campo -->
-    <section class="jovens" id="jovens">
-        <h2 data-aos="fade-up">Jovens protagonistas do agro</h2>
+    <!-- Parallax -->
+    <section class="parallax">
+        <h2>O Campo é o Futuro 🌱</h2>
+    </section>
+
+    <!-- Juventude no Campo -->
+    <section id="juventude">
+        <h2>Juventude e o Novo Campo</h2>
         <div class="cards">
-            <div class="card" data-aos="zoom-in">
+            <div class="card">
                 <img src="img/jovem1.jpg" alt="Jovem no campo">
-                <p><strong>Larissa, 19 anos</strong> — Criou um canal no YouTube sobre cultivo de hortaliças em estufas e hoje inspira milhares de seguidores.</p>
+                <p>Jovens estão redescobrindo o campo como espaço de inovação e qualidade de vida.</p>
             </div>
-            <div class="card" data-aos="zoom-in" data-aos-delay="100">
-                <img src="img/jovem2.jpg" alt="Jovem agricultor">
-                <p><strong>Mateus, 22 anos</strong> — Utiliza drones na fazenda da família para mapear o solo e aplicar defensivos com precisão.</p>
+            <div class="card">
+                <img src="img/jovem2.jpg" alt="Jovem feliz">
+                <p>Com acesso à educação e conectividade, o campo se torna atrativo para empreender.</p>
             </div>
         </div>
     </section>
 
-    <!-- Tecnologia no campo -->
-    <section class="tecnologia" id="tecnologia">
-        <h2 data-aos="fade-up">Tecnologia e Inovação</h2>
-        <p data-aos="fade-up" data-aos-delay="100">Tratores autônomos, irrigação inteligente, internet no campo, softwares de gestão rural... o agro está cada vez mais conectado. Isso exige mão de obra jovem, capacitada e criativa.</p>
+    <!-- Tecnologia -->
+    <section id="tecnologia">
+        <h2>Tecnologia no Agro</h2>
+        <p>O uso de drones, sensores, irrigação inteligente e softwares de gestão revolucionam a produção rural.</p>
         <div class="imagens-tec">
-            <img src="img/drones.jpg" alt="Drone no campo" data-aos="fade-right">
-            <img src="img/trator-tec.jpg" alt="Trator autônomo" data-aos="fade-left">
+            <img src="img/drones.jpg" alt="Drones">
+            <img src="img/trator-tec.jpg" alt="Trator tecnológico">
         </div>
     </section>
 
-    <!-- Profissões do agro -->
-    <section class="profissoes" id="profissoes">
-        <h2 data-aos="fade-up">Profissões em Alta no Campo</h2>
-        <ul class="lista-profissoes" data-aos="fade-up" data-aos-delay="100">
-            <li>✔️ Gestor de propriedades rurais</li>
-            <li>✔️ Técnico em agropecuária</li>
-            <li>✔️ Agrônomo(a) com foco em tecnologia</li>
-            <li>✔️ Empreendedor agroecológico</li>
-            <li>✔️ Programador para soluções rurais</li>
+    <!-- Formação e Oportunidades -->
+    <section id="formacao">
+        <h2>Formação e Profissões do Agro</h2>
+        <ul class="lista-profissoes">
+            <li>Engenharia Agronômica</li>
+            <li>Gestão Ambiental</li>
+            <li>Veterinária</li>
+            <li>Agroecologia</li>
+            <li>Biotecnologia</li>
+            <li>Técnico em Agropecuária</li>
         </ul>
     </section>
 
-    <!-- Quiz -->
-    <section class="quiz" id="quiz">
-        <h2 data-aos="fade-up">Você tem o perfil agro?</h2>
-        <button onclick="iniciarQuiz()">Clique aqui para descobrir</button>
-        <p id="resultado-quiz"></p>
+    <!-- Linha do Tempo -->
+    <section>
+        <h2>Evolução do Agro no Brasil</h2>
+        <p>De agricultura manual a uma potência tecnológica, veja a transformação do setor:</p>
+        <ul class="lista-profissoes">
+            <li><strong>1970:</strong> Mecanização das lavouras</li>
+            <li><strong>1990:</strong> Crescimento da agricultura familiar</li>
+            <li><strong>2005:</strong> Entrada da tecnologia de precisão</li>
+            <li><strong>2020:</strong> Integração digital, agro 4.0</li>
+        </ul>
     </section>
 
-    <!-- Contato -->
-    <footer id="contato">
+    <!-- Depoimentos -->
+    <section>
+        <h2>Depoimentos</h2>
+        <div class="cards">
+            <div class="card">
+                <p>"Decidi voltar para a fazenda dos meus pais e hoje tenho minha própria produção orgânica." — Ana, 24 anos</p>
+            </div>
+            <div class="card">
+                <p>"O curso técnico em agropecuária abriu portas para minha carreira." — Lucas, 18 anos</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria -->
+    <section>
+        <h2>Galeria</h2>
+        <div class="imagens-tec">
+            <img src="img/campo1.jpg" alt="Campo">
+            <img src="img/campo2.jpg" alt="Produção">
+            <img src="img/campo3.jpg" alt="Colheita">
+        </div>
+    </section>
+
+    <!-- Formulário -->
+    <section id="contato" class="quiz">
+        <h2>Quer saber mais?</h2>
+        <p>Preencha abaixo e receba um guia gratuito em PDF!</p>
+        <form action="#" method="POST">
+            <input type="text" name="nome" placeholder="Seu nome" required><br><br>
+            <input type="email" name="email" placeholder="Seu e-mail" required><br><br>
+            <button type="submit">Quero receber o guia!</button>
+        </form>
+        <br>
+        <a href="guia-agro.pdf" download>
+            <button>📥 Baixar guia em PDF</button>
+        </a>
+    </section>
+
+    <!-- Mapa -->
+    <section>
+        <h2>Onde Estamos</h2>
+        <div style="text-align:center;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18..." width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
         <div class="footer-content">
-            <h3>🌱 AgroFuturo</h3>
-            <p>Projeto educacional criado para o Agrinho 2025 | SENAR</p>
-            <p>Email: contato@agrofuturo.com.br</p>
+            <h3>AgroJovem</h3>
+            <p>Conectando gerações ao futuro do campo</p>
             <div class="socials">
                 <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
                 <a href="#"><img src="img/instagram.png" alt="Instagram"></a>
@@ -109,16 +147,6 @@
         </div>
     </footer>
 
-    <!-- Scripts -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-
-        function iniciarQuiz() {
-            const resultado = document.getElementById('resultado-quiz');
-            resultado.textContent = 'Parabéns! Você tem tudo para crescer no agro moderno!';
-        }
-    </script>
 </body>
-
 </html>
+
