@@ -73,21 +73,6 @@ body {
   color: var(--laranja);
 }
 
-/* Botão hamburguer */
-.menu-toggle {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-  gap: 5px;
-}
-
-.menu-toggle span {
-  width: 25px;
-  height: 3px;
-  background: var(--escuro);
-  border-radius: 3px;
-}
-
 /* Hero */
 .hero {
   display: flex;
@@ -139,7 +124,6 @@ body {
   perspective: 1000px;
   width: 250px;
   height: 300px;
-  transition: transform 0.6s;
 }
 
 .card-inner {
@@ -161,15 +145,12 @@ body {
   border-radius: 15px;
   backface-visibility: hidden;
   overflow: hidden;
-  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.card-front {
-  background-color: #fff;
 }
 
 .card-front img {
@@ -191,7 +172,6 @@ body {
   font-size: 16px;
   background-color: var(--verde-claro);
   color: white;
-  text-align: center;
 }
 
 /* Seção de Interação */
@@ -239,13 +219,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 28px;
-  font-weight: bold;
-  text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 }
 
 /* Rodapé */
@@ -296,22 +269,9 @@ footer {
     background-color: var(--branco);
     padding: 10px;
     display: none;
-    position: absolute;
-    top: 70px;
-    right: 20px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    z-index: 999;
-  }
-
-  .menu.ativo {
-    display: flex;
   }
 
   .menu li {
     margin: 10px 0;
-  }
-
-  .menu-toggle {
-    display: flex;
   }
 }
