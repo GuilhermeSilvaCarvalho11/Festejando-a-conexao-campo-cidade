@@ -1,142 +1,144 @@
+Você disse:
 <!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Festejando a Conexão Campo-Cidade</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Do Campo à Cidade | Agrinho 2025</title>
+
+    <!-- Fonte Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Estilo personalizado -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Biblioteca AOS (Animação ao rolar) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 </head>
 
 <body>
-  <header class="cabecalho">
+    <!-- Áudio de clique -->
+    <audio id="click-sound" src="click.mp3" preload="auto"></audio>
 
-  <!-- Botão hambúrguer -->
-        <div class="menu-toggle" onclick="toggleMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
+    <!-- Cabeçalho -->
+    <header class="cabecalho">
+        <div class="container">
+            <img src="img/tulipa-logo.png" alt="Logo" class="logo" />
+            <ul class="menu">
+                <li><a href="#home" onclick="playClick()">Home</a></li>
+                <li><a href="#novidades" onclick="playClick()">Novidades</a></li>
+                <li><a href="#quem-somos" onclick="playClick()">Quem Somos</a></li>
+                <li><a href="#contato" onclick="playClick()">Contato</a></li>
+            </ul>
         </div>
+    </header>
 
-        <ul class="menu" id="menu">
-            <li><a href="#home" onclick="playClick()">Home</a></li>
-            <li><a href="#novidades" onclick="playClick()">Novidades</a></li>
-            <li><a href="#quem-somos" onclick="playClick()">Quem Somos</a></li>
-            <li><a href="#contato" onclick="playClick()">Contato</a></li>
-        </ul>
-
-    </div>
-  </header>
-
-  <section class="hero" id="home">
-    <img src="./img/top.png" alt="Campo" class="hero-img" />
-    <div class="hero-content">
-      <h1>Do Campo à Cidade</h1>
-      <p>Conectando histórias, inovação e oportunidades no agronegócio.</p>
-    </div>
-  </section>
-
-  <section class="novidades" id="agro">
-    <h2>Novidades do Agro</h2>
-    <div class="cards-container">
-      <!-- Card 1 -->
-      <div class="card">
-        <div class="card-inner">
-          <div class="card-front">
-            <img src="img/Drone.jpeg" alt="Drone na Agricultura" />
-            <p>Abrir</p>
-          </div>
-          <div class="card-back">
-            <h3>Drones no Campo</h3>
-            <p>Monitoramento inteligente das plantações com precisão e tecnologia.</p>
-          </div>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <img src="img/inicio.jpeg" alt="Agricultura" class="hero-img" data-aos="zoom-in" />
+        <div class="hero-content" data-aos="fade-left">
+            <h1>Do Campo à Cidade</h1>
+            <p>Conectando o agro ao urbano com inovação e oportunidade.</p>
         </div>
-      </div>
+    </section>
 
-      <!-- Card 2 -->
-      <div class="card">
-        <div class="card-inner">
-          <div class="card-front">
-            <img src="img/Trator.jpeg" alt="Trator" />
-            <p>Abrir</p>
-          </div>
-          <div class="card-back">
-            <h3>Tratores Modernos</h3>
-            <p>Facilitam o preparo do solo e aumentam a produtividade.</p>
-          </div>
+    <!-- Novidades com cards flip -->
+    <section class="novidades" id="novidades">
+        <h2 data-aos="fade-up">Novidades do Agro</h2>
+        <div class="cards-container">
+
+            <!-- Card 1 -->
+            <div class="card" data-aos="fade-up">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="img/Drone.jpeg" alt="Drone" />
+                        <p>Drone no Campo</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Drones monitoram plantações, detectam falhas e aplicam insumos com precisão.</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card" data-aos="fade-up" data-aos-delay="100">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="img/Trator.jpeg" alt="Trator" />
+                        <p>Trator Moderno</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Tratores inteligentes otimizam colheitas, economizam tempo e recursos.</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card" data-aos="fade-up" data-aos-delay="200">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="img/campo e cidade.jpeg" alt="Campo e Cidade" />
+                        <p>Conexão Campo-Cidade</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Fortalecendo laços entre produtores e consumidores urbanos.</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="card" data-aos="fade-up" data-aos-delay="300">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="img/Semente.jpeg" alt="Semente" />
+                        <p>Valor da Semente</p>
+                    </div>
+                    <div class="card-back">
+                        <h3>Sementes de qualidade garantem colheitas saudáveis e produtivas.</h3>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+    </section>
 
-      <!-- Card 3 -->
-      <div class="card">
-        <div class="card-inner">
-          <div class="card-front">
-            <img src="img/campo e cidade.jpeg" alt="Campo e Cidade" />
-            <p>Abrir</p>
-          </div>
-          <div class="card-back">
-            <h3>Conexão Campo-Cidade</h3>
-            <p>Fortalecendo laços entre agricultura familiar e consumidores urbanos.</p>
-          </div>
+    <!-- Seção de Interação -->
+    <section class="interacao" id="quem-somos">
+        <h2 data-aos="fade-down">Compartilhe, Interaja e Cresça</h2>
+        <div class="interacao-boxes">
+            <div class="interacao-box" onclick="playClick()" data-aos="zoom-in">Compartilhar Criação</div>
+            <div class="interacao-box" onclick="playClick()" data-aos="zoom-in" data-aos-delay="100">Interesse em Cursos</div>
+            <div class="interacao-box" onclick="playClick()" data-aos="zoom-in" data-aos-delay="200">Buscar Apoio Técnico</div>
         </div>
-      </div>
+    </section>
 
-      <!-- Card 4 -->
-      <div class="card">
-        <div class="card-inner">
-          <div class="card-front">
-            <img src="img/Semente.jpeg" alt="Semente" />
-            <p>Abrir</p>
-          </div>
-          <div class="card-back">
-            <h3>Sementes</h3>
-            <p>Base da vida no campo. Pequenas, mas poderosas!</p>
-          </div>
+    <!-- Parallax Section -->
+    <div class="parallax" data-aos="fade-in"></div>
+
+    <!-- Rodapé -->
+    <footer id="contato">
+        <div class="footer-content">
+            <p>&copy; 2025 Tulipas Negócio. Todos os direitos reservados.</p>
+            <div class="socials">
+                <a href="#"><img src="img/facebook.png" alt="Facebook" /></a>
+                <a href="#"><img src="img/instagram.png" alt="Instagram" /></a>
+                <a href="#"><img src="img/linkedin.png" alt="LinkedIn" /></a>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </footer>
 
-  <section class="interacao" id="publicidade">
-    <h2>Participe Conosco</h2>
-    <div class="interacao-boxes">
-      <div class="interacao-box">
-        <p>Compartilhe sua Criação</p>
-      </div>
-      <div class="interacao-box">
-        <p>Interessado em Algo?</p>
-      </div>
-      <div class="interacao-box">
-        <p>Cursos ou Auxílio</p>
-      </div>
-    </div>
-  </section>
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
 
-  <footer>
-    <div class="footer-content">
-      <p>&copy; 2025 Tulipas Negócio. Todos os direitos reservados.</p>
-      <div class="socials">
-        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" /></a>
-        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" /></a>
-        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram" /></a>
-        <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733561.png" alt="LinkedIn" /></a>
-      </div>
-    </div>
-  </footer>
-  <script>
-  AOS.init({
-    duration: 1000, // duração da animação em milissegundos
-    once: true, // animação ocorre apenas uma vez
-  });
-
-  function toggleMenu() {
-    const menu = document.getElementById('menu');
-    menu.classList.toggle('ativo');
-}
-</script>
-
+        function playClick() {
+            const audio = document.getElementById('click-sound');
+            if (audio) {
+                audio.play();
+            }
+        }
+    </script>
 </body>
+
 </html>
