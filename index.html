@@ -2,126 +2,109 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Do Campo à Cidade | Agrinho 2025</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Campo é o Futuro | Agrinho 2025</title>
 
-    <!-- Fonte Google -->
+    <!-- Fontes e estilos -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-
-    <!-- Estilo personalizado -->
     <link rel="stylesheet" href="style.css">
 
-    <!-- Biblioteca AOS (Animação ao rolar) -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Animação ao rolar -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
 </head>
 
 <body>
-    <!-- Áudio de clique -->
-    <audio id="click-sound" src="click.mp3" preload="auto"></audio>
-
-    <!-- Cabeçalho -->
+    <!-- Header -->
     <header class="cabecalho">
         <div class="container">
-            <img src="img/tulipa-logo.png" alt="Logo" class="logo" />
-            <ul class="menu">
-                <li><a href="#home" onclick="playClick()">Home</a></li>
-                <li><a href="#novidades" onclick="playClick()">Novidades</a></li>
-                <li><a href="#quem-somos" onclick="playClick()">Quem Somos</a></li>
-                <li><a href="#contato" onclick="playClick()">Contato</a></li>
-            </ul>
+            <h1 class="logo">🌾 AgroFuturo</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#mudancas">Mudanças</a></li>
+                    <li><a href="#jovens">Jovens</a></li>
+                    <li><a href="#tecnologia">Tecnologia</a></li>
+                    <li><a href="#profissoes">Profissões</a></li>
+                    <li><a href="#quiz">Quiz</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <img src="img/inicio.jpeg" alt="Agricultura" class="hero-img" data-aos="zoom-in" />
-        <div class="hero-content" data-aos="fade-left">
-            <h1>Do Campo à Cidade</h1>
-            <p>Conectando o agro ao urbano com inovação e oportunidade.</p>
+    <!-- Hero -->
+    <section class="hero" id="inicio">
+        <div class="hero-text" data-aos="fade-right">
+            <h2>O Campo é o Futuro</h2>
+            <p>Mais do que plantar e colher, é onde a inovação e a juventude se encontram.</p>
+        </div>
+        <div class="hero-img" data-aos="fade-left">
+            <img src="img/campo-moderno.jpg" alt="Campo moderno com tecnologia">
         </div>
     </section>
 
-    <!-- Novidades com cards flip -->
-    <section class="novidades" id="novidades">
-        <h2 data-aos="fade-up">Novidades do Agro</h2>
-        <div class="cards-container">
+    <!-- Por que o campo está mudando -->
+    <section class="mudancas" id="mudancas">
+        <h2 data-aos="fade-up">Por que o campo está mudando?</h2>
+        <div class="mudancas-conteudo" data-aos="fade-up" data-aos-delay="100">
+            <p>Nos últimos anos, o campo deixou de ser apenas um espaço de produção tradicional. Com o avanço da tecnologia, a chegada da internet e a valorização da vida sustentável, o campo se tornou um novo horizonte de oportunidades para os jovens. É possível viver bem, empreender, estudar e crescer sem sair do interior.</p>
+        </div>
+    </section>
 
-            <!-- Card 1 -->
-            <div class="card" data-aos="fade-up">
-                <div class="card-inner">
-                    <div class="card-front">
-                        <img src="img/Drone.jpeg" alt="Drone" />
-                        <p>Drone no Campo</p>
-                    </div>
-                    <div class="card-back">
-                        <h3>Drones monitoram plantações, detectam falhas e aplicam insumos com precisão.</h3>
-                    </div>
-                </div>
+    <!-- Jovens no campo -->
+    <section class="jovens" id="jovens">
+        <h2 data-aos="fade-up">Jovens protagonistas do agro</h2>
+        <div class="cards">
+            <div class="card" data-aos="zoom-in">
+                <img src="img/jovem1.jpg" alt="Jovem no campo">
+                <p><strong>Larissa, 19 anos</strong> — Criou um canal no YouTube sobre cultivo de hortaliças em estufas e hoje inspira milhares de seguidores.</p>
             </div>
-
-            <!-- Card 2 -->
-            <div class="card" data-aos="fade-up" data-aos-delay="100">
-                <div class="card-inner">
-                    <div class="card-front">
-                        <img src="img/Trator.jpeg" alt="Trator" />
-                        <p>Trator Moderno</p>
-                    </div>
-                    <div class="card-back">
-                        <h3>Tratores inteligentes otimizam colheitas, economizam tempo e recursos.</h3>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 3 -->
-            <div class="card" data-aos="fade-up" data-aos-delay="200">
-                <div class="card-inner">
-                    <div class="card-front">
-                        <img src="img/campo e cidade.jpeg" alt="Campo e Cidade" />
-                        <p>Conexão Campo-Cidade</p>
-                    </div>
-                    <div class="card-back">
-                        <h3>Fortalecendo laços entre produtores e consumidores urbanos.</h3>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Card 4 -->
-            <div class="card" data-aos="fade-up" data-aos-delay="300">
-                <div class="card-inner">
-                    <div class="card-front">
-                        <img src="img/Semente.jpeg" alt="Semente" />
-                        <p>Valor da Semente</p>
-                    </div>
-                    <div class="card-back">
-                        <h3>Sementes de qualidade garantem colheitas saudáveis e produtivas.</h3>
-                    </div>
-                </div>
+            <div class="card" data-aos="zoom-in" data-aos-delay="100">
+                <img src="img/jovem2.jpg" alt="Jovem agricultor">
+                <p><strong>Mateus, 22 anos</strong> — Utiliza drones na fazenda da família para mapear o solo e aplicar defensivos com precisão.</p>
             </div>
         </div>
     </section>
 
-    <!-- Seção de Interação -->
-    <section class="interacao" id="quem-somos">
-        <h2 data-aos="fade-down">Compartilhe, Interaja e Cresça</h2>
-        <div class="interacao-boxes">
-            <div class="interacao-box" onclick="playClick()" data-aos="zoom-in">Compartilhar Criação</div>
-            <div class="interacao-box" onclick="playClick()" data-aos="zoom-in" data-aos-delay="100">Interesse em Cursos</div>
-            <div class="interacao-box" onclick="playClick()" data-aos="zoom-in" data-aos-delay="200">Buscar Apoio Técnico</div>
+    <!-- Tecnologia no campo -->
+    <section class="tecnologia" id="tecnologia">
+        <h2 data-aos="fade-up">Tecnologia e Inovação</h2>
+        <p data-aos="fade-up" data-aos-delay="100">Tratores autônomos, irrigação inteligente, internet no campo, softwares de gestão rural... o agro está cada vez mais conectado. Isso exige mão de obra jovem, capacitada e criativa.</p>
+        <div class="imagens-tec">
+            <img src="img/drones.jpg" alt="Drone no campo" data-aos="fade-right">
+            <img src="img/trator-tec.jpg" alt="Trator autônomo" data-aos="fade-left">
         </div>
     </section>
 
-    <!-- Parallax Section -->
-    <div class="parallax" data-aos="fade-in"></div>
+    <!-- Profissões do agro -->
+    <section class="profissoes" id="profissoes">
+        <h2 data-aos="fade-up">Profissões em Alta no Campo</h2>
+        <ul class="lista-profissoes" data-aos="fade-up" data-aos-delay="100">
+            <li>✔️ Gestor de propriedades rurais</li>
+            <li>✔️ Técnico em agropecuária</li>
+            <li>✔️ Agrônomo(a) com foco em tecnologia</li>
+            <li>✔️ Empreendedor agroecológico</li>
+            <li>✔️ Programador para soluções rurais</li>
+        </ul>
+    </section>
 
-    <!-- Rodapé -->
+    <!-- Quiz -->
+    <section class="quiz" id="quiz">
+        <h2 data-aos="fade-up">Você tem o perfil agro?</h2>
+        <button onclick="iniciarQuiz()">Clique aqui para descobrir</button>
+        <p id="resultado-quiz"></p>
+    </section>
+
+    <!-- Contato -->
     <footer id="contato">
         <div class="footer-content">
-            <p>&copy; 2025 Tulipas Negócio. Todos os direitos reservados.</p>
+            <h3>🌱 AgroFuturo</h3>
+            <p>Projeto educacional criado para o Agrinho 2025 | SENAR</p>
+            <p>Email: contato@agrofuturo.com.br</p>
             <div class="socials">
-                <a href="#"><img src="img/facebook.png" alt="Facebook" /></a>
-                <a href="#"><img src="img/instagram.png" alt="Instagram" /></a>
-                <a href="#"><img src="img/linkedin.png" alt="LinkedIn" /></a>
+                <a href="#"><img src="img/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="img/instagram.png" alt="Instagram"></a>
             </div>
         </div>
     </footer>
@@ -131,11 +114,9 @@
     <script>
         AOS.init();
 
-        function playClick() {
-            const audio = document.getElementById('click-sound');
-            if (audio) {
-                audio.play();
-            }
+        function iniciarQuiz() {
+            const resultado = document.getElementById('resultado-quiz');
+            resultado.textContent = 'Parabéns! Você tem tudo para crescer no agro moderno!';
         }
     </script>
 </body>
