@@ -1,3 +1,4 @@
+/* Reset e variáveis */
 * {
   margin: 0;
   padding: 0;
@@ -5,52 +6,54 @@
 }
 
 :root {
-  --cor-de-fundo: #f4f7f2;
-  --verde-campo: #4caf50;
-  --verde-escuro: #2e7d32;
+  --verde-principal: #4CAF50;
+  --verde-claro: #8BC34A;
+  --amarelo: #FFEB3B;
+  --laranja: #FF9800;
+  --fundo-claro: #f0f4f3;
+  --escuro: #333;
   --branco: #ffffff;
-  --cinza: #cccccc;
-  --preto: #000000;
-  --amarelo-claro: #f9fbe7;
-  --fonte-principal: 'Montserrat', sans-serif;
+  --cinza: #ccc;
+  --font-principal: 'Montserrat', sans-serif;
 }
 
-/* Estilização global */
+/* Body e texto */
 body {
-  background-color: var(--cor-de-fundo);
-  font-family: var(--fonte-principal);
-  color: var(--preto);
-  line-height: 1.6;
+  font-family: var(--font-principal);
+  background-color: var(--fundo-claro);
+  color: var(--escuro);
+  scroll-behavior: smooth;
+  padding-top: 80px;
 }
 
-/* Cabeçalho */
+/* Cabeçalho fixo */
 .cabecalho {
   background-color: var(--branco);
-  border-bottom: 2px solid var(--verde-campo);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   position: fixed;
-  top: 0;
   width: 100%;
-  z-index: 999;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  top: 0;
+  z-index: 100;
 }
 
 .container {
+  max-width: 1200px;
+  margin: auto;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  padding: 10px 5%;
+  align-items: center;
+  padding: 15px 30px;
 }
 
 .logo {
   width: 50px;
-  height: 50px;
   border-radius: 50%;
-  box-shadow: 0 0 10px #c5e1a5;
   transition: 0.3s;
 }
 
 .logo:hover {
-  box-shadow: 0 0 20px #aed581;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px var(--verde-principal);
 }
 
 .menu {
@@ -61,65 +64,60 @@ body {
 
 .menu li a {
   text-decoration: none;
-  color: var(--verde-escuro);
+  color: var(--verde-principal);
   font-weight: bold;
   transition: 0.3s;
-  font-size: 1.1rem;
 }
 
 .menu li a:hover {
-  color: #2ecc71;
+  color: var(--laranja);
 }
 
-/* Hero section */
+/* Hero */
 .hero {
-  margin-top: 80px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  background: linear-gradient(120deg, #dcedc8, #f1f8e9);
-  padding: 40px 5%;
+  justify-content: center;
+  gap: 50px;
+  padding: 80px 20px;
+  background: linear-gradient(to right, #eafaf1, #e0f7e9);
   flex-wrap: wrap;
 }
 
 .hero-img {
-  width: 300px;
-  max-width: 100%;
-  border-radius: 15px;
-}
-
-.hero-content {
-  max-width: 500px;
+  width: 350px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
 
 .hero-content h1 {
-  font-size: 2.5rem;
-  margin-bottom: 15px;
-  color: var(--verde-escuro);
+  font-size: 40px;
+  color: var(--verde-principal);
 }
 
 .hero-content p {
-  font-size: 1.2rem;
+  font-size: 20px;
+  margin-top: 10px;
 }
 
 /* Novidades */
 .novidades {
-  padding: 60px 5%;
+  padding: 50px 20px;
   background-color: var(--branco);
   text-align: center;
 }
 
 .novidades h2 {
-  font-size: 2rem;
-  color: var(--verde-escuro);
-  margin-bottom: 40px;
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: var(--verde-principal);
 }
 
 .cards-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
+  gap: 25px;
 }
 
 .card {
@@ -140,19 +138,15 @@ body {
   transform: rotateY(180deg);
 }
 
-.card-front,
-.card-back {
+.card-front, .card-back {
   position: absolute;
   width: 100%;
   height: 100%;
-  backface-visibility: hidden;
   border-radius: 15px;
+  backface-visibility: hidden;
   overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-}
-
-.card-front {
-  background-color: var(--amarelo-claro);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -161,93 +155,104 @@ body {
 
 .card-front img {
   width: 100%;
-  height: 80%;
+  height: 70%;
   object-fit: cover;
 }
 
 .card-front p {
-  margin: 10px 0;
   font-weight: bold;
+  padding: 10px;
+  font-size: 18px;
+  color: var(--escuro);
 }
 
 .card-back {
-  background-color: var(--verde-campo);
-  color: var(--branco);
   transform: rotateY(180deg);
   padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  font-size: 16px;
+  background-color: var(--verde-claro);
+  color: white;
 }
 
-.card-back h3 {
-  margin-bottom: 10px;
-}
-
-/* Seção Interação */
+/* Seção de Interação */
 .interacao {
-  padding: 60px 5%;
-  background-color: #f1f8e9;
+  padding: 60px 20px;
+  background-color: #f2fbf6;
   text-align: center;
 }
 
 .interacao h2 {
-  font-size: 2rem;
-  color: var(--verde-escuro);
-  margin-bottom: 30px;
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: var(--verde-principal);
 }
 
 .interacao-boxes {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 25px;
 }
 
 .interacao-box {
-  background: var(--branco);
-  border: 2px solid var(--verde-campo);
+  background-color: white;
+  border: 2px solid var(--verde-claro);
   padding: 20px 30px;
-  border-radius: 10px;
-  transition: 0.3s;
-  font-weight: bold;
+  border-radius: 12px;
   cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
 }
 
 .interacao-box:hover {
-  background-color: var(--verde-campo);
-  color: var(--branco);
+  background-color: var(--verde-claro);
+  color: white;
+  transform: translateY(-5px);
+}
+
+/* Parallax */
+.parallax {
+  background-image: url('img/trigo.png');
+  height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 60px;
 }
 
 /* Rodapé */
 footer {
-  background-color: var(--verde-escuro);
-  color: var(--branco);
+  background-color: var(--verde-principal);
+  color: white;
   text-align: center;
   padding: 30px 10px;
 }
 
 .footer-content {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: auto;
 }
 
-.socials img {
-  width: 25px;
+.footer-content .socials {
+  margin-top: 15px;
+}
+
+.footer-content img {
+  width: 24px;
   margin: 0 10px;
-  vertical-align: middle;
-  transition: 0.3s;
+  filter: brightness(0) invert(1);
 }
 
-.socials img:hover {
-  transform: scale(1.2);
-}
-
-/* Responsividade */
+/* Responsivo */
 @media (max-width: 768px) {
   .hero {
     flex-direction: column;
     text-align: center;
+  }
+
+  .hero-img {
+    width: 90%;
   }
 
   .cards-container {
@@ -261,15 +266,12 @@ footer {
 
   .menu {
     flex-direction: column;
-    gap: 10px;
+    background-color: var(--branco);
+    padding: 10px;
+    display: none;
   }
 
-  .container {
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .card {
-    width: 90%;
+  .menu li {
+    margin: 10px 0;
   }
 }
