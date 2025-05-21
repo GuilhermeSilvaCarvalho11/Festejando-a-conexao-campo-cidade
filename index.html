@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Festejando a Conexão Campo-Cidade</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
 </head>
 
 <body>
@@ -24,19 +24,23 @@
     </div>
   </header>
 
-  <section class="hero" id="home">
-    <img src="./img/top.png" alt="Campo" class="hero-img" />
-    <div class="hero-content">
-      <h1>Do Campo à Cidade</h1>
-      <p>Conectando histórias, inovação e oportunidades no agronegócio.</p>
+  <section class="hero parallax" id="home">
+    <div class="hero-content fade-in">
+      <h1 class="slide-in-top">Do Campo à Cidade</h1>
+      <p class="slide-in-bottom">Conectando histórias, inovação e oportunidades no agronegócio.</p>
     </div>
   </section>
 
   <section class="novidades" id="agro">
-    <h2>Novidades do Agro</h2>
+    <h2 class="fade-in">Novidades do Agro</h2>
+    <p class="agro-intro fade-in">
+      O agronegócio brasileiro vive um dos seus melhores momentos: mais rentável, tecnológico e atrativo do que nunca.
+      O campo vem se destacando como oportunidade de carreira, até mesmo para os jovens que antes buscavam apenas a cidade.
+      Tecnologias como drones, sensores, softwares de gestão e maquinários autônomos vêm revolucionando a produção e ampliando o interesse pela especialização no setor.
+    </p>
     <div class="cards-container">
-      <!-- Card 1 -->
-      <div class="card">
+      <!-- Cards com animações -->
+      <div class="card fade-in">
         <div class="card-inner">
           <div class="card-front">
             <img src="img/Drone.jpeg" alt="Drone na Agricultura" />
@@ -49,8 +53,7 @@
         </div>
       </div>
 
-      <!-- Card 2 -->
-      <div class="card">
+      <div class="card fade-in">
         <div class="card-inner">
           <div class="card-front">
             <img src="img/Trator.jpeg" alt="Trator" />
@@ -63,8 +66,7 @@
         </div>
       </div>
 
-      <!-- Card 3 -->
-      <div class="card">
+      <div class="card fade-in">
         <div class="card-inner">
           <div class="card-front">
             <img src="img/campo e cidade.jpeg" alt="Campo e Cidade" />
@@ -77,8 +79,7 @@
         </div>
       </div>
 
-      <!-- Card 4 -->
-      <div class="card">
+      <div class="card fade-in">
         <div class="card-inner">
           <div class="card-front">
             <img src="img/Semente.jpeg" alt="Semente" />
@@ -90,19 +91,32 @@
           </div>
         </div>
       </div>
+
+      <div class="card fade-in">
+        <div class="card-inner">
+          <div class="card-front">
+            <img src="img/jovem-agro.jpeg" alt="Jovem no Agro" />
+            <p>Abrir</p>
+          </div>
+          <div class="card-back">
+            <h3>O Agro Está em Alta</h3>
+            <p>Mais rentável do que nunca, o setor atrai jovens que veem no campo uma carreira promissora com base em inovação.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
   <section class="interacao" id="publicidade">
-    <h2>Participe Conosco</h2>
+    <h2 class="fade-in">Participe Conosco</h2>
     <div class="interacao-boxes">
-      <div class="interacao-box">
+      <div class="interacao-box fade-in">
         <p>Compartilhe sua Criação</p>
       </div>
-      <div class="interacao-box">
+      <div class="interacao-box fade-in">
         <p>Interessado em Algo?</p>
       </div>
-      <div class="interacao-box">
+      <div class="interacao-box fade-in">
         <p>Cursos ou Auxílio</p>
       </div>
     </div>
@@ -120,4 +134,5 @@
     </div>
   </footer>
 </body>
+
 </html>
