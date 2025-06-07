@@ -101,16 +101,47 @@ body {
 }
 
 /* Informações */
-.informações h2 {
-  font-size: 36px;
-  margin-bottom: 30px;
-  color: var(--verde-principal);
+.informações {
+  background: #ffffff;
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.informações  {
-   padding: 50px 20px;
-  background-color: var(--branco);
-  text-align: center;
+.informações:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.informações h2 {
+      font-size: 2.2rem;
+      color: #2e7d32;
+      margin-bottom: 20px;
+}
+
+.informações h3 {
+      font-size: 1.2rem;
+      color: #444;
+      line-height: 1.7;
+      font-weight: normal;
+}
+
+/* Efeito simples de fade */
+[data-aos="fade-up"] {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeUp 0.8s ease forwards;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* Novidades */
