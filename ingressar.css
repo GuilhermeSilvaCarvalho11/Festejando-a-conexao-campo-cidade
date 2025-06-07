@@ -161,10 +161,26 @@ section p {
 .botao:hover {
   background-color: #388e3c;
 }
-
+ 
+/* Rodapé */
 footer {
+  background-color: var(--verde-principal);
+  color: white;
   text-align: center;
-  padding: 20px;
-  background-color: #e0e0e0;
-  font-size: 0.9rem;
+  padding: 30px 10px;
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.footer-content .socials {
+  margin-top: 15px;
+}
+
+.footer-content img {
+  width: 24px;
+  margin: 0 10px;
+  filter: brightness(0) invert(1);
 }
