@@ -107,10 +107,10 @@ body {
   color: var(--verde-principal);
 }
 
-.informações h2 {
-  font-size: 36px;
-  margin-bottom: 30px;
-  color: var(--verde-principal);
+.informações  {
+   padding: 50px 20px;
+  background-color: var(--branco);
+  text-align: center;
 }
 
 /* Novidades */
