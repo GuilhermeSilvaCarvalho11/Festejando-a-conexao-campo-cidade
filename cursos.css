@@ -1,76 +1,23 @@
-/* Reset e variáveis */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-:root {
-  --verde-principal: #4CAF50;
-  --verde-claro: #8BC34A;
-  --amarelo: #FFEB3B;
-  --laranja: #FF9800;
-  --fundo-claro: #f0f4f3;
-  --escuro: #333;
-  --branco: #ffffff;
-  --cinza: #ccc;
-  --font-principal: 'Montserrat', sans-serif;
-}
-
-/* Body e texto */
 body {
-  font-family: var(--font-principal);
-  background-color: var(--fundo-claro);
-  color: var(--escuro);
-  scroll-behavior: smooth;
-  padding-top: 80px;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f8f2;
+  color: #333;
 }
 
-/* Cabeçalho fixo */
-.cabecalho {
-  background-color: var(--branco);
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  position: fixed;
-  width: 100%;
+header {
+  background-color: #33691e;
+  padding: 20px 10px;
+  color: white;
+  text-align: center;
+  position: sticky;
   top: 0;
-  z-index: 100;
+  z-index: 1000;
 }
 
-.container {
-  max-width: 1200px;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 30px;
-}
-
-.logo {
-  width: 50px;
-  border-radius: 50%;
-  transition: 0.3s;
-}
-
-.logo:hover {
-  transform: scale(1.1);
-  box-shadow: 0 0 10px var(--verde-principal);
-}
-
-.menu {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-.menu li a {
-  text-decoration: none;
-  color: var(--verde-principal);
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.menu li a:hover {
-  color: var(--laranja);
+header h1 {
+  margin: 10px 0;
+  font-size: 1.8rem;
 }
 
 nav ul {
@@ -135,25 +82,9 @@ section p {
   background-color: #33691e;
 }
 
-/* Rodapé */
 footer {
-  background-color: var(--verde-principal);
-  color: white;
   text-align: center;
-  padding: 30px 10px;
-}
-
-.footer-content {
-  max-width: 1000px;
-  margin: auto;
-}
-
-.footer-content .socials {
-  margin-top: 15px;
-}
-
-.footer-content img {
-  width: 24px;
-  margin: 0 10px;
-  filter: brightness(0) invert(1);
+  padding: 20px;
+  background-color: #e0e0e0;
+  font-size: 0.9rem;
 }
