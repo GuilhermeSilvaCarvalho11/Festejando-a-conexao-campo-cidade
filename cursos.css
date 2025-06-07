@@ -1,3 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --verde-principal: #4CAF50;
+  --verde-claro: #8BC34A;
+  --amarelo: #FFEB3B;
+  --laranja: #FF9800;
+  --fundo-claro: #f0f4f3;
+  --escuro: #333;
+  --branco: #ffffff;
+  --cinza: #ccc;
+  --font-principal: 'Montserrat', sans-serif;
+}
+
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
@@ -89,6 +107,11 @@ nav ul li a {
 nav ul li a:hover {
   opacity: 0.8;
   text-decoration: underline;
+}
+
+.hero-content h1 {
+  font-size: 40px;
+  color: var(--verde-principal);
 }
 
 main {
