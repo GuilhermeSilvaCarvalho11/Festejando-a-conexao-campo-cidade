@@ -95,11 +95,6 @@ body {
   color: var(--verde-principal);
 }
 
-.hero-content p {
-  font-size: 20px;
-  margin-top: 10px;
-}
-
 nav ul {
   display: flex;
   justify-content: center;
