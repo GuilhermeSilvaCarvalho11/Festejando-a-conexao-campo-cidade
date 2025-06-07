@@ -85,6 +85,11 @@ header h1 {
   font-size: 1.8rem;
 }
 
+.hero-content h1 {
+  font-size: 40px;
+  color: var(--verde-principal);
+}
+
 nav ul {
   display: flex;
   justify-content: center;
