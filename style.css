@@ -100,6 +100,19 @@ body {
   margin-top: 10px;
 }
 
+/* Informações */
+.informações h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: var(--verde-principal);
+}
+
+.informações h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: var(--verde-principal);
+}
+
 /* Novidades */
 .novidades {
   padding: 50px 20px;
@@ -208,17 +221,6 @@ body {
   background-color: var(--verde-claro);
   color: white;
   transform: translateY(-5px);
-}
-
-/* Parallax */
-.parallax {
-  background-image: url('img/trigo.png');
-  height: 400px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 60px;
 }
 
 /* Rodapé */
