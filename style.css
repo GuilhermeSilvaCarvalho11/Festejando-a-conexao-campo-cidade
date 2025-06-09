@@ -256,48 +256,36 @@ body {
 }
 
 .lugar-de-fala {
-  background: linear-gradient(145deg, #fffbe6, #f0f0dc);
-  border-radius: 20px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(145deg, #f9f9f5, #eaf0e8);
   padding: 3rem;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
   max-width: 800px;
   margin: 3rem auto;
-  animation: fadeInUp 1s ease-out;
+  animation: fadeIn 1s ease-out;
 }
 
 .titulo {
-  font-size: 2.5rem;
-  color: #6c4f1d;
+  font-size: 2.3rem;
+  color: #5a4e35;
   text-align: center;
   margin-bottom: 1.5rem;
-  font-weight: bold;
-  text-shadow: 1px 1px 0 #fff;
-}
-
-.fala-conteudo {
-  background: #fffef9;
-  border-left: 5px solid #a67c00;
-  padding: 2rem;
-  border-radius: 10px;
-  position: relative;
 }
 
 .quote {
   font-style: italic;
-  font-size: 1.3rem;
-  color: #4b3b1f;
-  margin-bottom: 1.5rem;
-  position: relative;
+  font-size: 1.2rem;
+  color: #3f3f3f;
+  border-left: 4px solid #8dac00;
   padding-left: 1rem;
+  margin-bottom: 0.5rem;
 }
 
-.quote::before {
-  content: "“";
-  font-size: 2.5rem;
-  position: absolute;
-  left: -0.5rem;
-  top: -0.7rem;
-  color: #d4aa00;
+.fonte {
+  text-align: right;
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1.5rem;
 }
 
 .texto {
@@ -308,36 +296,15 @@ body {
 .assinatura {
   text-align: right;
   font-weight: bold;
-  margin-top: 2rem;
-  color: #5a3c0d;
+  margin-top: 1.5rem;
+  color: #5a4e35;
 }
 
-/* Animação de entrada */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(40px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
-/* Responsivo */
-@media (max-width: 600px) {
-  .titulo {
-    font-size: 2rem;
-  }
-
-  .quote {
-    font-size: 1.1rem;
-  }
-
-  .fala-de-fala {
-    padding: 2rem;
-  }
-}
 
 /* Rodapé */
 footer {
