@@ -92,7 +92,7 @@ body {
 
 .hero-content h1 {
   font-size: 40px;
-  color: #5a4e35;
+  color: var(--verde-principal);
 }
 
 .hero-content p {
@@ -115,7 +115,7 @@ body {
 .informações:hover {
       transform: translateY(-5px);
       box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
-      background-image:linear-gradient( #ffffff, #cbffd0) ;
+      background-image:linear-gradient( #ffffff, #f00000) ;
 }
 
 .informações h2 {
