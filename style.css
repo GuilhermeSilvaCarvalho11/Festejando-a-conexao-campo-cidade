@@ -92,7 +92,7 @@ body {
 
 .hero-content h1 {
   font-size: 40px;
-  color: var(--verde-principal);
+  color: var(#5e4d38);
 }
 
 .hero-content p {
