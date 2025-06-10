@@ -115,7 +115,7 @@ body {
 .informações:hover {
       transform: translateY(-5px);
       box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
-      background-image:linear-gradient( #ffffff, #f00000) ;
+      background-image:linear-gradient( #ffffff, #5a4e35) ;
 }
 
 .informações h2 {
