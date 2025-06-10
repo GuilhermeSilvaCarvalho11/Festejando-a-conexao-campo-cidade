@@ -229,7 +229,7 @@ body {
 .interacao h2 {
   font-size: 32px;
   margin-bottom: 20px;
-  color: #5a4e35
+  color: var(--verde-principal);
 }
 
 .interacao-boxes {
