@@ -92,7 +92,7 @@ body {
 
 .hero-content h1 {
   font-size: 40px;
-  color: var(#5a4e35);
+  color: var(--verde-principal);
 }
 
 .hero-content p {
@@ -229,7 +229,7 @@ body {
 .interacao h2 {
   font-size: 32px;
   margin-bottom: 20px;
-  color: var(#8dac00);
+  color: var(--verde-principal);
 }
 
 .interacao-boxes {
