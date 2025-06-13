@@ -118,6 +118,7 @@ body {
 .informações:hover {
     transform: translateY(-5px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    background-image:linear-gradient( #ffffff, #cbffd0) ;
 }
 
 .informações  h2 {
@@ -227,7 +228,6 @@ body {
 /* Seção de Interação */
 .interacao {
   padding: 60px 20px;
-  background: linear-gradient(to right,#f0faf4, #9effc3);
   text-align: center;
 }
 
