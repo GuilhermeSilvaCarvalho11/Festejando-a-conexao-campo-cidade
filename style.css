@@ -75,6 +75,12 @@ body {
   color: var(--laranja);
 }
 
+/* seção titulo */
+.titulo-conteudo{
+  font-size: 46px;
+  color: var(--verde-principal);
+}
+
 /* seção inicio */
 .inicio {
   display: flex;
