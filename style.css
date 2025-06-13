@@ -263,12 +263,9 @@ body {
 
 /*Seção mapa*/
 .mapa{
-  background: #ffffff;
     max-width: 1200px;
     margin: 50px auto;
     padding: 40px;
-    border-radius: 20px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
