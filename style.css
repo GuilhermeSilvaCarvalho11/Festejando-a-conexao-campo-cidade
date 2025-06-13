@@ -158,6 +158,11 @@ body {
   color: var(--verde-principal);
 }
 
+.novidades h3 {
+  font-size: 20px;
+  margin-bottom: 14px;
+}
+
 .cards-container {
   display: flex;
   flex-wrap: wrap;
