@@ -82,7 +82,7 @@ body {
   justify-content: center;
   gap: 50px;
   padding: 80px 20px;
-  background: linear-gradient(to right, #eafaf1, #e0f7e9);
+  background: linear-gradient(to right, #eafaf1, #00ff62);
   flex-wrap: wrap;
 }
 
