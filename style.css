@@ -263,10 +263,16 @@ body {
 
 /*Seção mapa*/
 .mapa{
-  padding: 40px; 
-  width: 1200px;
-  text-align: center;
+  background: #ffffff;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .mapa_titulo {
   color: #2e7d32; 
   font-size: 2rem; 
@@ -289,13 +295,14 @@ body {
 
 /*Seção lugar de fala*/
 .lugar-de-fala {
-  background: linear-gradient(145deg, #f9f9f5, #eaf0e8);
-  padding: 3rem;
-  border-radius: 20px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-  max-width: 800px;
-  margin: 3rem auto;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+   background: #ffffff;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
   
 }
 .lugar-de-fala:hover {
