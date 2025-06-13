@@ -1,12 +1,7 @@
-/* Reset e variáveis */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
-  --verde-principal: #4CAF50;
+  --verde-principal: #2e7d32;
   --verde-claro: #8BC34A;
   --amarelo: #FFEB3B;
   --laranja: #FF9800;
@@ -17,27 +12,32 @@
   --font-principal: 'Montserrat', sans-serif;
 }
 
-/* Body e texto */
-body {
+* {
+  box-sizing: border-box;
   font-family: var(--font-principal);
+}
+
+/* Body*/
+body {
   background-color: var(--fundo-claro);
   color: var(--escuro);
   scroll-behavior: smooth;
   padding-top: 80px;
 }
 
-/* Cabeçalho fixo */
+/* Cabeçalho*/
 .cabecalho {
   background-color: var(--branco);
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   position: fixed;
-  width: 100%;
   top: 0;
+  left: 0;
+  width: 100%;
   z-index: 100;
 }
 
 .container {
-  max-width: 1200px;
+  width: 100%;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -59,13 +59,15 @@ body {
 .menu {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 40px;
 }
 
 .menu li a {
   text-decoration: none;
   color: var(--verde-principal);
   font-weight: bold;
+  font-size: 24px;
+  cursor: pointer;
   transition: 0.3s;
 }
 
@@ -73,8 +75,8 @@ body {
   color: var(--laranja);
 }
 
-/* Hero */
-.hero {
+/* seção inicio */
+.inicio {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -84,66 +86,64 @@ body {
   flex-wrap: wrap;
 }
 
-.hero-img {
+.inicio-img {
   width: 350px;
   border-radius: 20px;
   box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
 
-.hero-content h1 {
-  font-size: 40px;
+.inicio-conteudo h1 {
+  font-size: 32px;
   color: var(--verde-principal);
+  
 }
 
-.hero-content p {
+.inicio-conteudo p {
   font-size: 20px;
   margin-top: 10px;
 }
 
-/* Informações */
+/* Seção Informações*/
 .informações {
   background: #ffffff;
-      max-width: 900px;
-      margin: 50px auto;
-      padding: 40px;
-      border-radius: 20px;
-      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-      text-align: center;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .informações:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
-      background-image:linear-gradient( #ffffff, #cbffd0) ;
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    background-image:linear-gradient( #ffffff, #cbffd0) ;
 }
 
-.informações h2 {
-      font-size: 2.2rem;
-      color: var(--verde-principal);
-      margin-bottom: 20px;
+.informações  h2 {
+    font-size: 2.2rem;
+    color: var(--verde-principal);
+    margin-bottom: 20px;
 }
 
-.informações h3 {
-      font-size: 1.2rem;
-      color: #444;
-      line-height: 1.7;
-      font-weight: normal;
+.informações  h3 {
+    font-size: 1.2rem;
+    color: #444;
+    line-height: 1.7;
+    font-weight: normal;
 }
 
-/* Efeito simples de fade */
-[data-aos="fade-up"] {
-      opacity: 0;
-      transform: translateY(20px);
-      animation: fadeUp 0.8s ease forwards;
+.informações.elemento-com-fade-in, .lugar-de-fala.elemento-com-fade-in {
+   transition: opacity 0.5s ease-in-out;
 }
 
-@keyframes fadeUp {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
+.informações, .lugar-de-fala {
+      opacity: 0; 
+    }
+.informações, .lugar-de-fala {
+      opacity: 1; 
+    }
 
 /* Novidades */
 .novidades {
@@ -218,7 +218,7 @@ body {
   background-color: var(--verde-claro);
   color: white;
 }
-
+ 
 /* Seção de Interação */
 .interacao {
   padding: 60px 20px;
@@ -241,7 +241,7 @@ body {
 
 .interacao-box {
   background-color: white;
-  border: 2px solid var(--verde-claro);
+  border: 2px solid var(--verde-principal);
   padding: 20px 30px;
   border-radius: 12px;
   cursor: pointer;
@@ -255,6 +255,31 @@ body {
   transform: translateY(-5px);
 }
 
+/*Seção mapa*/
+.mapa{
+  padding: 40px; 
+  text-align: center;
+}
+.mapa_titulo {
+  color: #2e7d32; 
+  font-size: 2rem; 
+  margin-bottom: 20px;
+}
+
+.mapa_dados{
+      width: 100%; 
+      height: 480px;
+      border: 0; 
+}
+
+.mapa_itens {
+  max-width: 100%; 
+  overflow: hidden; 
+  border-radius: 15px; 
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/*Seção lugar de fala*/
 .lugar-de-fala {
   background: linear-gradient(145deg, #f9f9f5, #eaf0e8);
   padding: 3rem;
@@ -262,12 +287,17 @@ body {
   box-shadow: 0 8px 20px rgba(0,0,0,0.1);
   max-width: 800px;
   margin: 3rem auto;
-  animation: fadeIn 1s ease-out;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
 }
-
+.lugar-de-fala:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    background-image:linear-gradient( #ffffff, #cbffd0) ;
+}
 .titulo {
   font-size: 2.3rem;
-  color: #5a4e35;
+  color: var(--verde-principal);
   text-align: center;
   margin-bottom: 1.5rem;
 }
@@ -275,7 +305,6 @@ body {
 .quote {
   font-style: italic;
   font-size: 1.2rem;
-  color: #3f3f3f;
   border-left: 4px solid #8dac00;
   padding-left: 1rem;
   margin-bottom: 0.5rem;
@@ -283,8 +312,7 @@ body {
 
 .fonte {
   text-align: right;
-  font-size: 0.9rem;
-  color: #666;
+  font-size: 1.2rem;
   margin-bottom: 1.5rem;
 }
 
@@ -297,16 +325,9 @@ body {
   text-align: right;
   font-weight: bold;
   margin-top: 1.5rem;
-  color: #5a4e35;
 }
 
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(30px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
-
-/* Rodapé */
+/* Seção Rodapé */
 footer {
   background-color: var(--verde-principal);
   color: white;
@@ -329,14 +350,24 @@ footer {
   filter: brightness(0) invert(1);
 }
 
-/* Responsivo */
 @media (max-width: 768px) {
-  .hero {
+   .menu {
+    flex-direction: column;
+    background-color: var(--branco);
+    padding: 10px;
+    display: none;
+  }
+
+  .menu li {
+    margin: 10px 0;
+  }
+
+  .inicio {
     flex-direction: column;
     text-align: center;
   }
 
-  .hero-img {
+  .inicio-img {
     width: 90%;
   }
 
@@ -348,15 +379,5 @@ footer {
   .interacao-boxes {
     flex-direction: column;
   }
-
-  .menu {
-    flex-direction: column;
-    background-color: var(--branco);
-    padding: 10px;
-    display: none;
-  }
-
-  .menu li {
-    margin: 10px 0;
-  }
+   
 }
