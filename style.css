@@ -264,13 +264,14 @@ body {
 /*Seção mapa*/
 .mapa{
   padding: 40px; 
-  width: 400px;
+  width: 800px;
   text-align: center;
 }
 .mapa_titulo {
   color: #2e7d32; 
   font-size: 2rem; 
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .mapa_dados{
