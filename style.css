@@ -263,12 +263,13 @@ body {
 
 /*Seção mapa*/
 .mapa{
+  padding: 100px; 
   text-align: center;
 }
 .mapa_titulo {
   color: #2e7d32; 
   font-size: 2rem; 
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .mapa_dados{
