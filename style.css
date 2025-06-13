@@ -66,7 +66,7 @@ body {
 
 .menu li a {
   text-decoration: none;
-  color: var(--verde-principal);
+  color: #2e7d32;
   font-weight: bold;
   font-size: 24px;
   cursor: pointer;
@@ -152,13 +152,12 @@ body {
 
 .informações  h2 {
     font-size: 2.2rem;
-    color: var(--verde-principal);
+    color: #2e7d32;
     margin-bottom: 20px;
 }
 
 .informações  h3 {
     font-size: 1.2rem;
-    color: #2e7d32;
     line-height: 1.7;
     font-weight: normal;
 }
