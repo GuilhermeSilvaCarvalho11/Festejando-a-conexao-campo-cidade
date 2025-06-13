@@ -103,6 +103,33 @@ body {
   margin-top: 10px;
 }
 
+/* Hero */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 80px 20px;
+  background: linear-gradient(to right, #eafaf1, #e0f7e9);
+  flex-wrap: wrap;
+}
+
+.hero-img {
+  width: 350px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.hero-content h1 {
+  font-size: 40px;
+  color: var(--verde-principal);
+}
+
+.hero-content p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
 /* Seção Informações*/
 .informações {
   background: #ffffff;
