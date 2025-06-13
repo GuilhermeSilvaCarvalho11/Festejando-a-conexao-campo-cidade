@@ -263,7 +263,7 @@ body {
 
 /*Seção mapa*/
 .mapa{
-  padding: 100px; 
+  padding: 40px; 
   text-align: center;
 }
 .mapa_titulo {
@@ -273,7 +273,7 @@ body {
 }
 
 .mapa_dados{
-      width: 100%; 
+      width: 80%; 
       height: 480px;
       border: 0; 
 }
