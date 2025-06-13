@@ -263,11 +263,16 @@ body {
 
 /*Seção mapa*/
 .mapa{
-  padding: 40px; 
-  width: 1200px;
-  text-align: center;
-  align-items: center;
+  background: #ffffff;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .mapa_titulo {
   color: #2e7d32; 
   font-size: 2rem; 
