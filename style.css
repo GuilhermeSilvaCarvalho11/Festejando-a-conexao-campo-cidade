@@ -263,6 +263,7 @@ body {
 
 /*Seção mapa*/
 .mapa{
+    background: linear-gradient(to right,#f0faf4, #9effc3);
     max-width: 1600px;
     margin: 50px auto;
     padding: 40px;
