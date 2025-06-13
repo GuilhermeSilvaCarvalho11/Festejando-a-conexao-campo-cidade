@@ -272,6 +272,12 @@ body {
   margin-bottom: 30px;
 }
 
+.mapa_dados{
+      width: 100%; 
+      height: 480px;
+      border: 0; 
+}
+
 .mapa_itens {
   max-width: 100%; 
   overflow: hidden; 
