@@ -4,28 +4,18 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Festejando a relação entre o campo e a cidade | Agrinho 2025</title>
-
-    <!-- Fonte Google -->
+    <!--<title>Festejando a relação entre o campo e a cidade | Agrinho 2025</title>-->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-
-    <!-- Estilo personalizado -->
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 
-</head>
-
 <body>
-
     <!-- Cabeçalho -->
     <header class="cabecalho">
         <div class="container">
             <img src="img/tulipa-logo.png" alt="Logo" class="logo" />
             <ul class="menu">
-                <li><a href="#home" onclick="playClick()">Home</a></li>
+                <li><a href="#inicio" onclick="playClick()">Inicio</a></li>
                 <li><a href="#novidades" onclick="playClick()">Especializações</a></li>
                 <li><a href="#quem-somos" onclick="playClick()">Detalhes</a></li>
                 <li><a href="#contato" onclick="playClick()">Dados</a></li>
@@ -33,80 +23,88 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <img src="img/inicio.jpeg" alt="Agricultura" class="hero-img" data-aos="zoom-in" />
-        <div class="hero-content">
+    <!-- Seção inicio -->
+    <section class="inicio" id="inicio">
+        <img src="img/inicio.jpeg" alt="Agricultura" class="inicio-img" />
+        <div class="inicio-conteudo">
             <h1>Jovens em ação no campo</h1>
-            <p>Pessoas na faixa etária dos 18 aos 25 anos, (ou mais) estão encontrando no campo,</p> 
+            <p>Pessoas na faixa etária dos 18 aos 25 anos, (ou mais) estão encontrando no campo,</p>
             <p>espaço para aplicar seus conhecimentos.</p>
         </div>
     </section>
 
-    <!-- Informações-->
-     <section class="informações" id="informações">
-        <h2 data-aos="fade-up">Modernização no Setor Agropecuário</h2>
-        <h3 data-aos="fade-up">A modernização do agro transformou o campo com o uso de tecnologias como máquinas inteligentes, 
-            drones, softwares de gestão e internet das coisas. Isso aumentou a produtividade e reduziu o trabalho braçal. 
-            Com essas inovações, o agro se tornou mais conectado, sustentável e profissionalizado — o que tem atraído cada vez 
-            mais jovens. Hoje, muitos veem no campo oportunidades de carreira em áreas como tecnologia, gestão, 
-            sustentabilidade e empreendedorismo, rompendo com a imagem antiga de um setor apenas rural e tradicional.</h3>
-     </section>
+    <!--Seção Informações-->
+    <section class="informações" id="informações">
+        <h2 class="elemento-com-fade-in">Modernização no Setor Agropecuário</h2>
+        <h3 class="elemento-com-fade-in">A modernização do agro transformou o campo com o uso de tecnologias como
+            máquinas inteligentes,
+            drones, softwares de gestão e internet das coisas. Isso aumentou a produtividade e reduziu o trabalho
+            braçal.
+            Com essas inovações, o agro se tornou mais conectado, sustentável e profissionalizado — o que tem atraído
+            cada vez
+            mais jovens. Hoje, muitos veem no campo oportunidades de carreira em áreas como tecnologia, gestão,
+            sustentabilidade e empreendedorismo, rompendo com a imagem antiga de um setor apenas rural e tradicional.
+        </h3>
+    </section>
 
-    <!-- Novidades com cards flip -->
+    <!--Seção Novidades com cards-->
     <section class="novidades" id="novidades">
-        <h2 data-aos="fade-up">Se interessou?</h2>
-        <h3 data-aos="fade-up">Algumas especializações mais rentáveis do Agro.</h3> 
+        <h2 class="elemento-com-fade-in">Se interessou?</h2>
+        <h3 class="elemento-com-fade-in">Algumas especializações mais rentáveis do Agro.</h3>
         <div class="cards-container">
 
             <!-- Card 1 -->
-            <div class="card" data-aos="fade-up">
+            <div class="card" "elemento-com-fade-in">
                 <div class="card-inner">
                     <div class="card-front">
                         <img src="img/Drone.jpeg" alt="Drone" />
                         <p>Agronomia</p>
                     </div>
                     <div class="card-back">
-                        <h3>Agronomia cuida da produção agrícola e gestão do campo, focando em solos e cultivos para garantir a segurança alimentar.</h3>
+                        <h3>Agronomia cuida da produção agrícola e gestão do campo, focando em solos e cultivos para
+                            garantir a segurança alimentar.</h3>
                     </div>
                 </div>
             </div>
 
             <!-- Card 2 -->
-            <div class="card" data-aos="fade-up" data-aos-delay="100">
+            <div class="card" "elemento-com-fade-in" data-aos-delay="100">
                 <div class="card-inner">
                     <div class="card-front">
                         <img src="img/asno.jpeg" alt="Trator" />
                         <p>Medicina Veterinária</p>
                     </div>
                     <div class="card-back">
-                        <h3>Medicina Veterinária protege a saúde dos animais, tratando doenças e assegurando a qualidade dos produtos animais, com um papel vital na saúde pública</h3>
+                        <h3>Medicina Veterinária protege a saúde dos animais, tratando doenças e assegurando a qualidade
+                            dos produtos animais, com um papel vital na saúde pública</h3>
                     </div>
                 </div>
             </div>
 
             <!-- Card 3 -->
-            <div class="card" data-aos="fade-up" data-aos-delay="200">
+            <div class="card" "elemento-com-fade-in" data-aos-delay="200">
                 <div class="card-inner">
                     <div class="card-front">
                         <img src="img/campo e cidade.jpeg" alt="Campo e Cidade" />
                         <p>Zootecnia</p>
                     </div>
                     <div class="card-back">
-                        <h3>Zootecnia se dedica à criação e manejo de animais, visando eficiência e bem-estar para a produção de alimentos de origem animal.</h3>
+                        <h3>Zootecnia se dedica à criação e manejo de animais, visando eficiência e bem-estar para a
+                            produção de alimentos de origem animal.</h3>
                     </div>
                 </div>
             </div>
 
             <!-- Card 4 -->
-            <div class="card" data-aos="fade-up" data-aos-delay="300">
+            <div class="card" "elemento-com-fade-in" data-aos-delay="300">
                 <div class="card-inner">
                     <div class="card-front">
                         <img src="img/Semente.jpeg" alt="Semente" />
                         <p>Agricultura de Precisão</p>
                     </div>
                     <div class="card-back">
-                        <h3>Tecnologia em Mecanização em Agricultura de Precisão aplica tecnologias avançadas para otimizar o uso de recursos e aumentar a produtividade nas lavouras.</h3>
+                        <h3>Tecnologia em Mecanização em Agricultura de Precisão aplica tecnologias avançadas para
+                            otimizar o uso de recursos e aumentar a produtividade nas lavouras.</h3>
                     </div>
                 </div>
             </div>
@@ -115,62 +113,82 @@
 
     <!-- Seção de Interação -->
     <section class="interacao" id="quem-somos">
-        <h2 data-aos="fade-down">Precisa de mais detalhes ou ajuda?</h2>
+        <h2>Precisa de mais detalhes ou ajuda?</h2>
         <div class="interacao-boxes">
-            <div class="interacao-box" onclick="playClick()" data-aos="zoom-in"><li><a href="ingressar.html">Como se ingressar</a></li></div>
-            <div class="interacao-box" onclick="playClick()" data-aos="zoom-in" data-aos-delay="100"><li><a href="cursos.html">Mais detalhes dos Cursos</a></li></div>
-            <div class="interacao-box" onclick="playClick()" data-aos="zoom-in" data-aos-delay="200"><li><a href="apoio.html">Buscar Apoio Técnico</a></li></div>
+            <div class="interacao-box" onclick="playClick()">
+                <li><a href="ingressar.html">Como se ingressar</a></li>
+            </div>
+            <div class="interacao-box" onclick="playClick()">
+                <li><a href="cursos.html">Mais detalhes dos Cursos</a></li>
+            </div>
+            <div class="interacao-box" onclick="playClick()">
+                <li><a href="apoio.html">Buscar Apoio Técnico</a></li>
+            </div>
         </div>
     </section>
 
-    <section id="mapa" style="padding: 40px; text-align: center;">
-  <h2 style="color: #2e7d32; font-size: 2rem; margin-bottom: 20px;">Faculdades de Agronomia no Paraná</h2>
-  <div style="max-width: 100%; overflow: hidden; border-radius: 15px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
-    <iframe 
-      src="https://www.google.com/maps/d/u/2/embed?mid=198YkmVP5qe-pziSr4SqcMoMq731Yc8I&ehbc=2E312F&noprof=1" 
-      width="100%" 
-      height="480" 
-      style="border:0;" 
-      allowfullscreen="" 
-      loading="lazy">
-    </iframe>
-  </div>
-</section>
+    <!-- Seção mapa -->
+    <section class="mapa">
+        <h2 class="mapa_titulo">Faculdades de Agronomia no Paraná</h2>
+        <div class="mapa_itens">
+            <iframe class="mapa_dados"
+                src="https://www.google.com/maps/d/u/2/embed?mid=198YkmVP5qe-pziSr4SqcMoMq731Yc8I&ehbc=2E312F&noprof=1">
+            </iframe>
+        </div>
+    </section>
 
-<section class="lugar-de-fala">
-  <div class="fala-container">
-    <h2 class="titulo">Lugar de Fala</h2>
-    <div class="fala-conteudo">
-      <p class="quote">
+   <!--  Seção lugar de fala -->
+     <section class="lugar-de-fala">
+        <div class="fala-container ">
+            <h2 class="elemento-com-fade-in">Lugar de Fala</h2>
+            <h3 class="elemento-com-fade-in"><p class="quote">
+               
+                    “A concepção de que o meio rural é caracterizado por atraso e conservadorismo está desatualizada… os
+                    jovens estão conectados, utilizando tecnologia e participando ativamente.”<br>
+                    – DigitalAgro, maio/2023</p>
+               
+                    Dados reais mostram: a participação de jovens de 20–35 anos no campo cresceu de 15% para 27%
+                    (2013–2017); a idade média dos produtores caiu de ~49 para 46,5 anos; e 1,5milhão de propriedades
+                    têm internet rural (2006–2017).
+               
+                    Essa nova geração não apenas rejuvenesceu o quadro rural: ela o revolucionou. Engenheiros agrônomos,
+                    tecnólogos em agricultura de precisão e gestores rurais voltam ao campo, modernizando propriedades,
+                    adotando drones e sensores, reduzindo custos e elevando a rentabilidade.
+              
+               
+                    Além disso, promovem impacto social—revitalizam comunidades, atraem novas empresas, impulsionam
+                    turismo rural e fomentam cadeias agroecológicas. É um ciclo virtuoso: mais tecnologia, mais jovens,
+                    mais renda e qualidade de vida no campo.
+                <h/3>
+            </div>
+        </div>
+    </section>
+   <!-- <section class="lugar-de-fala" id="informações">
+        <h2 class="elemento-com-fade-in">Lugar de Fala</h2>
+        <h3 class="elemento-com-fade-in">
         “A concepção de que o meio rural é caracterizado por atraso e conservadorismo está desatualizada… os jovens estão conectados, utilizando tecnologia e participando ativamente.”<br>
         – DigitalAgro, maio/2023
-      </p>
-      <p class="fonte-estatisticas">
+       <br>
         Dados reais mostram: a participação de jovens de 20–35 anos no campo cresceu de 15% para 27% (2013–2017); a idade média dos produtores caiu de ~49 para 46,5 anos; e 1,5milhão de propriedades têm internet rural (2006–2017).
-      </p>
-      <p class="texto">
+       <br>
+     
         Essa nova geração não apenas rejuvenesceu o quadro rural: ela o revolucionou. Engenheiros agrônomos, tecnólogos em agricultura de precisão e gestores rurais voltam ao campo, modernizando propriedades, adotando drones e sensores, reduzindo custos e elevando a rentabilidade.
-      </p>
-      <p class="texto">
+       <br>
         Além disso, promovem impacto social—revitalizam comunidades, atraem novas empresas, impulsionam turismo rural e fomentam cadeias agroecológicas. É um ciclo virtuoso: mais tecnologia, mais jovens, mais renda e qualidade de vida no campo.
-      </p>
-    </div>
-  </div>
-</section>
-
+     </h3>
+     </section>-->
     <!-- Rodapé -->
     <footer id="contato">
         <div class="footer-content">
             <p>&copy; 2025 Do campo á cidade. Todos os direitos reservados.</p>
             <div class="socials">
                 <a href="#"><img src="img/FaceboookS.png" alt="Facebook" /></a>
-                <a href="#"><img src="img/INSTAGRAM2-removebg-preview.png" alt="Instagram" /></a>
+                <a href="#"><img src="img/Instagran2-removebg-preview.png" alt="Instagram" /></a>
                 <a href="#"><img src="img/Villanueva.png" alt="Villanueva" /></a>
             </div>
         </div>
     </footer>
 
-    </script>
-</body>
 
-</html>
+
+</body>

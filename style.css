@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
   --verde-principal: #2e7d32;
@@ -11,7 +11,7 @@
   --cinza: #ccc;
   --font-principal: 'Montserrat', sans-serif;
 }
-  
+
 * {
   box-sizing: border-box;
   font-family: var(--font-principal);
@@ -64,7 +64,7 @@ body {
 
 .menu li a {
   text-decoration: none;
-  color: #2e7d32;
+  color: var(--verde-principal);
   font-weight: bold;
   font-size: 24px;
   cursor: pointer;
@@ -103,33 +103,6 @@ body {
   margin-top: 10px;
 }
 
-/* Hero */
-.hero {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 50px;
-  padding: 80px 20px;
-  background: linear-gradient(to right, #eafaf1, #e0f7e9);
-  flex-wrap: wrap;
-}
-
-.hero-img {
-  width: 350px;
-  border-radius: 20px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.1);
-}
-
-.hero-content h1 {
-  font-size: 40px;
-  color: var(--verde-principal);
-}
-
-.hero-content p {
-  font-size: 20px;
-  margin-top: 10px;
-}
-
 /* Seção Informações*/
 .informações {
   background: #ffffff;
@@ -150,12 +123,13 @@ body {
 
 .informações  h2 {
     font-size: 2.2rem;
-    color: #2e7d32;
+    color: var(--verde-principal);
     margin-bottom: 20px;
 }
 
 .informações  h3 {
     font-size: 1.2rem;
+    color: #444;
     line-height: 1.7;
     font-weight: normal;
 }
@@ -181,7 +155,7 @@ body {
 .novidades h2 {
   font-size: 36px;
   margin-bottom: 30px;
-  color: #2e7d32;
+  color: #5a4e35;
 }
 
 .cards-container {
@@ -241,7 +215,7 @@ body {
   transform: rotateY(180deg);
   padding: 20px;
   font-size: 16px;
-  background-color: #8BC34A;
+  background-color: var(--verde-claro);
   color: white;
 }
  
@@ -255,7 +229,7 @@ body {
 .interacao h2 {
   font-size: 32px;
   margin-bottom: 20px;
-  color: #2e7d32;
+  color: var(--verde-principal);
 }
 
 .interacao-boxes {
@@ -267,7 +241,7 @@ body {
 
 .interacao-box {
   background-color: white;
-  border: 2px solid #2e7d32;
+  border: 2px solid var(--verde-principal);
   padding: 20px 30px;
   border-radius: 12px;
   cursor: pointer;
@@ -276,7 +250,7 @@ body {
 }
 
 .interacao-box:hover {
-  background-color: #8BC34A;
+  background-color: var(--verde-claro);
   color: white;
   transform: translateY(-5px);
 }
@@ -323,7 +297,7 @@ body {
 }
 .titulo {
   font-size: 2.3rem;
-  color: #2e7d32;
+  color: var(--verde-principal);
   text-align: center;
   margin-bottom: 1.5rem;
 }
@@ -355,7 +329,7 @@ body {
 
 /* Seção Rodapé */
 footer {
-  background-color: #2e7d32;
+  background-color: var(--verde-principal);
   color: white;
   text-align: center;
   padding: 30px 10px;
