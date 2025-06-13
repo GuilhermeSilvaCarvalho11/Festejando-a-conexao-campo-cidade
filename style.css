@@ -266,6 +266,7 @@ body {
   padding: 40px; 
   width: 800px;
   text-align: center;
+  align-items: center;
 }
 .mapa_titulo {
   color: #2e7d32; 
