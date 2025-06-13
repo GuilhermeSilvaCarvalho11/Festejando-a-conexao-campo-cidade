@@ -124,7 +124,7 @@ body {
 
 .hero-content h1 {
   font-size: 40px;
-  color: #1fdb32
+  color: var(--verde-principal);
 }
 
 .hero-content p {
