@@ -116,9 +116,6 @@ body {
 .inicio-conteudo p {
   font-size: 20px;
   margin-top: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 /* Seção Informações*/
