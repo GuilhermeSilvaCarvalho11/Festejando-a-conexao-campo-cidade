@@ -70,7 +70,7 @@ body {
   color: var(--laranja);
 }
 
-.titulo {
+.começo {
   background-color: #33691e;
   padding: 20px 10px;
   color: white;
@@ -80,7 +80,7 @@ body {
   z-index: 1000;
 }
 
-header h1 {
+.começo h1 {
   margin: 10px 0;
   font-size: 1.8rem;
 }
