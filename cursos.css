@@ -1,3 +1,4 @@
+/* Reset e variáveis */
 * {
   margin: 0;
   padding: 0;
@@ -16,11 +17,13 @@
   --font-principal: 'Montserrat', sans-serif;
 }
 
+/* Body e texto */
 body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #f4f8f2;
-  color: #333;
+  font-family: var(--font-principal);
+  background-color: var(--fundo-claro);
+  color: var(--escuro);
+  scroll-behavior: smooth;
+  padding-top: 80px;
 }
 
 /* Cabeçalho fixo */
@@ -71,7 +74,7 @@ body {
 }
 
 .começo {
-  background-color: #33691e;
+  background-color: #c8ffb2;
   padding: 20px 10px;
   color: white;
   text-align: center;
