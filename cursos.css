@@ -59,7 +59,7 @@ body {
   gap: 20px;
 }
 
-.titulo {
+.titulo h1 {
   font-size: 32px;
   color: var(--verde-principal);
   align-items: center;
