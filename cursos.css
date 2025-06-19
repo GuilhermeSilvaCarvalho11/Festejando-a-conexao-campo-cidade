@@ -59,13 +59,6 @@ body {
   gap: 20px;
 }
 
-.titulo h1 {
-  font-size: 32px;
-  color: var(--verde-principal);
-  align-items: center;
-  display: flex;
-}
-
 .menu li a {
   text-decoration: none;
   color: var(--verde-principal);
@@ -77,7 +70,7 @@ body {
   color: var(--laranja);
 }
 
-header {
+.titulo {
   background-color: #33691e;
   padding: 20px 10px;
   color: white;
@@ -92,7 +85,7 @@ header h1 {
   font-size: 1.8rem;
 }
 
-.hero-content h1 {
+.titulo h1 {
   font-size: 40px;
   color: var(--verde-principal);
 }
