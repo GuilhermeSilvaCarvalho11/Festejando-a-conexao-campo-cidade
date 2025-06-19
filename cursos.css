@@ -80,16 +80,6 @@ body {
   z-index: 1000;
 }
 
-.começo h1 {
-  margin: 10px 0;
-  font-size: 1.8rem;
-}
-
-.titulo h1 {
-  font-size: 40px;
-  color: var(--verde-principal);
-}
-
 nav ul {
   display: flex;
   justify-content: center;
@@ -114,7 +104,7 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-.hero-content h1 {
+.começo h1 {
   font-size: 40px;
   color: var(--verde-principal);
 }
