@@ -59,6 +59,13 @@ body {
   gap: 20px;
 }
 
+.titulo {
+  font-size: 32px;
+  color: var(--verde-principal);
+  align-items: center;
+  display: flex;
+}
+
 .menu li a {
   text-decoration: none;
   color: var(--verde-principal);
