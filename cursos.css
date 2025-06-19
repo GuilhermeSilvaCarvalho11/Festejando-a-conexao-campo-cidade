@@ -104,7 +104,7 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-.começo h1 {
+.começo-conteudo {
   font-size: 40px;
   color: var(--verde-principal);
 }
