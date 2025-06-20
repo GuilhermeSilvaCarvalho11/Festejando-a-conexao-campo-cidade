@@ -79,16 +79,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 5px;
-  bottom: 5px;
 }
 
 .título-conteudo {
   font-size: 46px;
   color: var(--verde-principal);
   align-items: center;
-  margin-bottom: 5px;
-   bottom: 5px;
 }
 
 nav ul {
