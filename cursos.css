@@ -73,14 +73,18 @@ body {
   color: var(--laranja);
 }
 
-.começo {
-  background-color: #c8ffb2;
-  padding: 20px 10px;
-  color: white;
-  text-align: center;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
+/* Titulo */
+.título {
+  background: linear-gradient(to right,#f0faf4, #9effc3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.título-conteudo {
+  font-size: 46px;
+  color: var(--verde-principal);
+  align-items: center;
 }
 
 nav ul {
@@ -105,11 +109,6 @@ nav ul li a {
 nav ul li a:hover {
   opacity: 0.8;
   text-decoration: underline;
-}
-
-.começo-conteudo {
-  font-size: 40px;
-  color: var(--verde-principal);
 }
 
 main {
