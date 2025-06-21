@@ -385,30 +385,67 @@ body {
   margin-bottom: 15px;
 }
 
-.imagem-link {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.imagem-link img {
+.carousel-css {
+  position: relative;
   width: 100%;
-  max-width: 400px;
-  border-radius: 8px;
-  margin-bottom: 10px;
+  max-width: 600px;
+  margin: 0 auto 20px;
+  overflow: hidden;
 }
 
-.imagem-link a {
-  color: #1b5e20;
-  text-decoration: none;
-  font-weight: bold;
-  transition: color 0.3s ease;
+.slides {
+  display: flex;
+  width: 300%;
+  transition: all 0.5s ease-in-out;
 }
 
-.imagem-link a:hover {
-  color: #43a047;
+.slide {
+  width: 100%;
+  flex-shrink: 0;
 }
 
+.slide img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Oculta os inputs */
+input[name="carousel"] {
+  display: none;
+}
+
+/* Navegação manual */
+.nav-manual {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.nav-manual label {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #bbb;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+input#slide1:checked ~ .slides {
+  transform: translateX(0%);
+}
+input#slide2:checked ~ .slides {
+  transform: translateX(-100%);
+}
+input#slide3:checked ~ .slides {
+  transform: translateX(-200%);
+}
+
+input#slide1:checked ~ .nav-manual label[for="slide1"],
+input#slide2:checked ~ .nav-manual label[for="slide2"],
+input#slide3:checked ~ .nav-manual label[for="slide3"] {
+  background: #4CAF50;
+}
 
 /* Seção Rodapé */
 footer {
