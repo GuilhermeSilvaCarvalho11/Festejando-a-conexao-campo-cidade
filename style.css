@@ -366,7 +366,6 @@ body {
   font-size: 32px;
   margin-bottom: 30px;
   color: var(--verde-principal);
-  font: var(--font-principal)
 }
 
 .exposicao-agro {
@@ -379,12 +378,8 @@ body {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-.exposicao-agro h2 {
-  color: #2e7d32;
-  margin-bottom: 10px;
-}
-
 .exposicao-agro p {
+  font: var(--font-principal);
   font-size: 16px;
   color: #333;
   margin-bottom: 15px;
