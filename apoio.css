@@ -72,21 +72,21 @@ body {
 
 body {
   margin: 0;
-  font-family: "Segoe UI", sans-serif;
+  font-family: var(--font-principal);
   background-color: #f4f9f4;
   color: #333;
 }
 
-.apoio-container {
-  max-width: 900px;
-  margin: 3rem auto;
-  padding: 2rem;
-  background: #ffffff;
-  border-radius: 16px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+ /* seção titulo */
+
+.título {
+  background: linear-gradient(to right,#f0faf4, #9effc3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-h1 {
+.título-conteudo {
   font-size: 46px;
   color: var(--verde-principal);
   align-items: center;
