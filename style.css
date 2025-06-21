@@ -118,12 +118,11 @@ body {
 }
 
 audio {
-  align-items: start;
-  width:  200px;
-  height: 40px;
+  width:  250px;
+  height: 30px;
   outline: none;
-  border-radius: 10px;
-  background-color: #4caf50;
+  border-radius: 12px;
+  background-color: var(--verde-claro);
 }
 
 /* Alguns navegadores permitem estilizar os controles nativos */
