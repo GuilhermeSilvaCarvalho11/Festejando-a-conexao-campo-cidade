@@ -136,21 +136,6 @@ section p {
   line-height: 1.7;
 }
 
-.botao {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 10px 20px;
-  background-color: #558b2f;
-  color: white;
-  text-decoration: none;
-  border-radius: 8px;
-  transition: background-color 0.3s ease;
-}
-
-.botao:hover {
-  background-color: #33691e;
-}
-
 /* Rodapé */
 footer {
   background-color: var(--verde-principal);
