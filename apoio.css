@@ -72,12 +72,12 @@ body {
 
 body {
   margin: 0;
-  font-family: var(--font-principal);
+  font-family: "Segoe UI", sans-serif;
   background-color: #f4f9f4;
   color: #333;
 }
 
- /* seção titulo */
+/* seção titulo */
 
 .título {
   background: linear-gradient(to right,#f0faf4, #9effc3);
@@ -87,6 +87,12 @@ body {
 }
 
 .título-conteudo {
+  font-size: 46px;
+  color: var(--verde-principal);
+  align-items: center;
+}
+
+h1 {
   font-size: 46px;
   color: var(--verde-principal);
   align-items: center;
