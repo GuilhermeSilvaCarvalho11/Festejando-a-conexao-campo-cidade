@@ -418,7 +418,8 @@ audio::-webkit-media-controls-panel {
 .imagem-link a {
   color: #1b5e20;
   text-decoration: none;
-  font-weight: bold;
+  font: var(--font-principal);
+  font-size: 20px;
   transition: color 0.3s ease;
 }
 
