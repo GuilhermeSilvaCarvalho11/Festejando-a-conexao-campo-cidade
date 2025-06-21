@@ -17,27 +17,27 @@
   font-family: var(--font-principal);
 }
 
-/* Body e texto */
+/* Body*/
 body {
-  font-family: var(--font-principal);
   background-color: var(--fundo-claro);
   color: var(--escuro);
   scroll-behavior: smooth;
   padding-top: 80px;
 }
 
-/* Cabeçalho fixo */
+/* Cabeçalho*/
 .cabecalho {
   background-color: var(--branco);
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   position: fixed;
-  width: 100%;
   top: 0;
+  left: 0;
+  width: 100%;
   z-index: 100;
 }
 
 .container {
-  max-width: 1200px;
+  width: 100%;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -59,13 +59,15 @@ body {
 .menu {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 40px;
 }
 
 .menu li a {
   text-decoration: none;
   color: var(--verde-principal);
   font-weight: bold;
+  font-size: 24px;
+  cursor: pointer;
   transition: 0.3s;
 }
 
