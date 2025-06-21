@@ -277,7 +277,7 @@ body {
 
 /*Seção mapa*/
 .mapa{
-    background: linear-gradient(#f0faf4, #9effc3);
+     background-image:linear-gradient( #ffffff, #cbffd0);
     border-radius: 15px;
     max-width: 1400px;
     margin: 50px auto;
@@ -316,8 +316,8 @@ body {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  
 }
+
 .lugar-de-fala:hover {
     transform: translateY(-5px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
@@ -333,15 +333,16 @@ body {
 .quote {
   font-style: italic;
   font-size: 1.2rem;
-  border-left: 4px solid #8dac00;
+  border-left: 4px solid var(--verde-principal);
   padding-left: 1rem;
   margin-bottom: 0.5rem;
 }
 
 .fonte {
-  text-align: right;
-  font-size: 2.0rem;
-  margin-bottom: 1.5rem;
+  font: var(--font-principal);
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 15px;
 }
 
 .texto {
