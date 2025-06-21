@@ -77,13 +77,14 @@ body {
 
 /* seção titulo */
 .título {
-  background: linear-gradient(to right,#f0faf4, #9effc3);
+  background: linear-gradient(to right,#f0faf4, #ff0800);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .título-conteudo {
+  font-family: var(--font-principal);
   font-size: 46px;
   color: var(--verde-principal);
   align-items: center;
