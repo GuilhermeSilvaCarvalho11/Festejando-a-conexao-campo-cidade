@@ -1,70 +1,105 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Descubra Seu Caminho | Agrinho 2025</title>
+  <title>Festejando a relação entre o campo e a cidade | Agrinho 2025</title>
 
-  <!-- Fontes e CSS -->
+  <!-- Fonte Google -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Estilo personalizado -->
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="apoio.css">
 </head>
 
 <body>
+
   <!-- Cabeçalho -->
   <header class="cabecalho">
     <div class="container">
       <img src="img/tulipa-logo.png" alt="Logo" class="logo" />
       <ul class="menu">
-        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html" onclick="playClick()">Home</a></li>
       </ul>
     </div>
   </header>
+
+  <!-- Banner ilustrativo -->
+  <section class="banner-topo">
+    <img src="img/banner-vocacional.jpg" alt="Banner vocacional" />
+    <div class="frase-banner">
+      <h1>Seu futuro começa com um passo: se conhecer</h1>
+    </div>
+  </section>
 
   <main class="apoio-container">
     <section class="conteudo">
       <h1>Descubra Seu Caminho</h1>
       <p class="intro">
-        Escolher uma profissão não é fácil — e tudo bem. O importante é lembrar que você não está sozinho nessa jornada. Há caminhos, pessoas e oportunidades esperando por você.
+        Está em dúvida sobre qual profissão seguir? Precisa de ajuda para entender suas habilidades e paixões? 
+        Estamos aqui para ajudar você a escolher um futuro que combine com quem você é.
       </p>
 
       <div class="apoio-opcoes">
         <div class="card">
-          <h2>Entenda Seus Talentos</h2>
+          <h2>Orientação Vocacional</h2>
           <p>
-            Todos nós temos habilidades únicas. Descubra o que você faz bem e como isso pode se transformar em uma carreira. 
-            Converse com educadores ou psicólogos que podem te orientar com empatia.
+            Converse com profissionais da educação e psicólogos para entender suas aptidões e interesses. 
+            Testes, conversas e dinâmicas ajudarão você a enxergar suas possibilidades.
           </p>
         </div>
         <div class="card">
-          <h2>Conheça Suas Opções</h2>
+          <h2>Consultoria Técnica</h2>
           <p>
-            Existem muitas formas de crescer: cursos técnicos, faculdade, iniciativas no campo ou na cidade. 
-            Programas como Sisu e ProUni podem te ajudar a começar.
+            Saiba mais sobre cursos, áreas técnicas, ensino superior, programas como Sisu, ProUni e caminhos no campo ou na cidade.
           </p>
         </div>
         <div class="card">
-          <h2>Busque Apoio Sem Medo</h2>
+          <h2>Agende um Atendimento</h2>
           <p>
-            Falar com alguém pode mudar tudo. Buscar ajuda não é sinal de fraqueza — é coragem. 
-            Seja com um orientador escolar ou um amigo, dar o primeiro passo é essencial.
+            Procure por atendimento técnico e não perca tempo!
           </p>
         </div>
       </div>
+
+      <!-- Seção do vídeo -->
+      <section class="video-section">
+        <h2>Inspire-se</h2>
+        <p>Assista a este vídeo e reflita sobre sua jornada.</p>
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/f_R7PfZYP9g" 
+                  title="Vídeo motivacional" 
+                  frameborder="0" 
+                  allowfullscreen></iframe>
+        </div>
+      </section>
+
+      <!-- Seção do áudio -->
+      <section class="audio-section">
+        <h2>Ouça uma mensagem para você</h2>
+        <p>Feche os olhos, respire fundo e dê o play.</p>
+        <audio controls>
+          <source src="audio/mensagem-vocacional.mp3" type="audio/mpeg">
+          Seu navegador não suporta áudio HTML5.
+        </audio>
+      </section>
+
     </section>
   </main>
 
-  <footer>
+  <!-- Rodapé -->
+  <footer id="contato">
     <div class="footer-content">
-      <p>Você não precisa decidir tudo hoje. Mas precisa começar a se ouvir. 🌱</p>
+      <p>&copy; 2025 Tulipas Negócio. Todos os direitos reservados.</p>
       <div class="socials">
         <a href="#"><img src="img/FaceboookS.png" alt="Facebook" /></a>
         <a href="#"><img src="img/INSTAGRAM2-removebg-preview.png" alt="Instagram" /></a>
         <a href="#"><img src="img/Villanueva.png" alt="Villanueva" /></a>
       </div>
-      <p style="margin-top: 10px;">&copy; 2025 Tulipas Negócio. Todos os direitos reservados.</p>
     </div>
   </footer>
+
 </body>
 </html>
