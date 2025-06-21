@@ -77,7 +77,7 @@ body {
 
 /* seção titulo */
 .título {
-  background: linear-gradient(to right,#000000, #9effc3);
+  background: linear-gradient(to right,#f0faf4, #9effc3);
   display: flex;
   align-items: center;
   justify-content: center;
