@@ -4,4 +4,4 @@ Em seguida, a plataforma busca um envolvimento com o público-alvo, apresentando
 
 O site prossegue com um mapa que destaca as principais faculdades de agronomia no Paraná, oferecendo um recurso prático para os jovens que desejam ingressar no ramo do agronegócio e contribuir para sua modernização.
 
-Para concluir, a plataforma reforça suas informações com dados estatísticos e fontes confiáveis, validando o conteúdo apresentado e ressaltando o papel fundamental do jovem nesse processo de transformação e inovação no campo.
+Para concluir, a plataforma reforça suas informações com dados estatísticos e fontes confiáveis, validando o conteúdo apresentado e ressaltando o papel fundamental do jovem nesse processo de transformação e inovação no campo..
