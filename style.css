@@ -123,7 +123,6 @@ audio {
   outline: none;
   border-radius: 12px;
   background-color: var(--verde-claro);
-  margin-bottom: auto;
 }
 
 /* Alguns navegadores permitem estilizar os controles nativos */
