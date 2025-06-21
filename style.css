@@ -117,6 +117,21 @@ body {
   margin-top: 10px;
 }
 
+audio {
+  width: 300px;
+  height: 40px;
+  outline: none;
+  border-radius: 10px;
+  background-color: #4caf50;
+}
+
+/* Alguns navegadores permitem estilizar os controles nativos */
+audio::-webkit-media-controls-panel {
+  background-color: #4caf50;
+  border-radius: 10px;
+}
+
+
 /* Seção Informações*/
 .informações {
   background: #ffffff;
