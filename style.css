@@ -149,17 +149,6 @@ body {
     font-weight: normal;
 }
 
-.informações.elemento-com-fade-in, .lugar-de-fala.elemento-com-fade-in {
-   transition: opacity 0.5s ease-in-out;
-}
-
-.informações, .lugar-de-fala {
-      opacity: 0; 
-    }
-.informações, .lugar-de-fala {
-      opacity: 1; 
-    }
-
 /* Novidades */
 .novidades {
   padding: 50px 20px;
@@ -322,6 +311,13 @@ body {
   font-size: 32px;
   margin-bottom: 30px;
   color: var(--verde-principal);
+}
+
+.lugar-de-fala h3 {
+    font-size: 1.2rem;
+    color: #444;
+    line-height: 1.7;
+    font-weight: normal;
 }
 
 .lugar-de-fala:hover {
