@@ -357,10 +357,16 @@ body {
 
 /* Seção exposição*/
 
+.exposicao {
+  padding: 60px 20px;
+  text-align: center;
+}
+
 .exposicao h2 {
-    font-size: 32px;
+  font-size: 32px;
   margin-bottom: 30px;
   color: var(--verde-principal);
+  font: var(--font-principal)
 }
 
 .exposicao-agro {
