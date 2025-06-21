@@ -146,3 +146,11 @@ footer {
   margin: 0 10px;
   filter: brightness(0) invert(1);
 }
+
+.footer-content .socials a img {
+  transition: transform 0.3s ease;
+}
+
+.footer-content .socials a:hover img {
+  transform: scale(1.2);
+}
