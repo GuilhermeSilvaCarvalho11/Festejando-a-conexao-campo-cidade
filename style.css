@@ -118,7 +118,8 @@ body {
 }
 
 audio {
-  width: 300px;
+  align-items: start;
+  width:  200px;
   height: 40px;
   outline: none;
   border-radius: 10px;
