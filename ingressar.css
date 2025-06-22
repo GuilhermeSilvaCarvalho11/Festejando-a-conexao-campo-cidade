@@ -146,6 +146,21 @@ section p {
 .botao:hover {
   background-color: #388e3c;
 }
+
+/* Seção Áudio*/
+audio {
+  width:  220px;
+  height: 30px;
+  outline: none;
+  border-radius: 12px;
+  background-color: var(--verde-claro);
+}
+
+/* Alguns navegadores permitem estilizar os controles nativos */
+audio::-webkit-media-controls-panel {
+  background-color: #4caf50;
+  border-radius: 10px;
+}
  
 /* Rodapé */
 footer {
