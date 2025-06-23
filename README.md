@@ -14,7 +14,7 @@ Além de apresentar conteúdos sobre as oportunidades do agronegócio, o site ta
 
 A ideia é que, se todos nós tivéssemos acesso a esse tipo de ajuda desde cedo, **a escolha da nossa profissão seria muito mais leve e segura**. Este site é um passo para aproximar o conhecimento do campo aos jovens, especialmente aqueles que vivem na cidade, mas carregam o amor pelo agro no coração.
 
-O site conta com um cabeçalho, 9 seções principais e um rodapé:
+O site conta com um cabeçalho, 13 seções principais e um rodapé:
 
 - *Cabeçalho*: Apresenta a logo e os links de navegação para as seções do site.
 - *Início*: Traz uma breve explicação da movimentação dos jovens para o campo e o seu protagonismo.
@@ -25,9 +25,16 @@ O site conta com um cabeçalho, 9 seções principais e um rodapé:
 - *Mais detalhes dos cursos*: Seção que aprofunda nas especificações de cada especialização na área do agro.
 - *Apoio Vocacional*: Página dedicada a incentivar a busca por orientação profissional para escolhas mais seguras.
 - *Mapa*: Mostra as faculdades e instituições onde o jovem pode se formar e buscar informações das instituições.
-- *Sobre o site*: Uma breve explicação do site e suas funcionalidade.
+- *Lugar de Fala*: Traz fontes confiaveis que comprovam a rentabilidade do agro e seus avanços conforme os anos.
+- *Exposições Agropecuárias*: Uma sessão que apresenta um campo onde a pessoa pode estar fazendo networking e conhecendo mais sobre o campo e tambem acesso para o visitante marcar sua visita
 - *Contato*:Setor onde podem estar entrando em contato, caso haja algum dúvida ou necessite de auxílio.
+- *Sobre o Projeto*: Uma sessão que explica sobre o projeto
 - *Rodapé*: Contém as redes sociais e email direto do aluno criador.
+
+O site foi inteiramente pensando em acessibilidade, por isso no final de cada sessão possuí um botão de áudio para ler o que está na tela para pessoas com dificuldades visuais. Botões interativos para dar destaque por onde o mouse está passando.
+
+ A ideia é que o Jovem com duvida em sua escolha, abra o site e veja uma esperança. Já traz 
+
 
 
 

@@ -17,6 +17,11 @@
   font-family: var(--font-principal);
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 120px;
+}
+
 /* Body*/
 body {
   background-color: var(--fundo-claro);
