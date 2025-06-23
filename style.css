@@ -478,7 +478,54 @@ audio::-webkit-media-controls-panel {
     background-color: var(--verde-claro);
 }
 
+.final-projeto-container {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
 
+.final-projeto-conteudo {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.final-projeto-conteudo h1 {
+    font-size: 2.2em;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.final-projeto-intro {
+    font-size: 1.1em;
+    margin-bottom: 40px;
+    color: #555;
+}
+
+.final-projeto-bloco {
+    display: flex;
+    justify-content: center;
+}
+
+.final-projeto-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+    text-align: left;
+}
+
+.final-projeto-card h2 {
+    font-size: 1.6em;
+    color: #388e3c;
+    margin-bottom: 15px;
+}
+
+.final-projeto-card p {
+    font-size: 1em;
+    color: #444;
+    line-height: 1.6;
+}
 
 /* Seção Rodapé */
 footer {
