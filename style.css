@@ -476,7 +476,7 @@ audio::-webkit-media-controls-panel {
 }
 
 .formulario-contato button:hover {
-    background-color: var(--verde-claro);
+     background: linear-gradient(to right,#f0faf4, #9effc3);
 }
 
 
