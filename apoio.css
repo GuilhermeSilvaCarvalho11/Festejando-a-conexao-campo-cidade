@@ -29,7 +29,7 @@ body {
 /* Cabeçalho*/
 .cabecalho {
   background-color: var(--branco);
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   position: fixed;
   top: 0;
   left: 0;
@@ -158,7 +158,7 @@ section p {
 
 /* Seção Áudio*/
 audio {
-  width:  220px;
+  width: 220px;
   height: 30px;
   outline: none;
   border-radius: 12px;
