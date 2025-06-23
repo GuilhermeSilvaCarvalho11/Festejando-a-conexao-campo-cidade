@@ -430,33 +430,6 @@ audio::-webkit-media-controls-panel {
 
 /* Sessão de Contato */
 .contato {
-    background-color: var(--verde-claro);
-    padding: 50px 20px;
-    text-align: center;
-}
-
-.contato h2 {
-    font-size: 2em;
-    color: #4CAF50;
-    margin-bottom: 10px;
-}
-
-.contato p {
-    font-size: 1.1em;
-    margin-bottom: 30px;
-    color: #555;
-}
-
-.formulario-contato {
-    max-width: 600px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
- 
-/* Sessão de Contato */
-.contato {
     background-color: var(--cinza);
     padding: 50px 20px;
     text-align: center;
