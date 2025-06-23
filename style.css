@@ -430,7 +430,7 @@ audio::-webkit-media-controls-panel {
 
 /* Sessão de Contato */
 .contato {
-    background-color: var(--branco);
+    background-color: var(--verde-claro);
     padding: 50px 20px;
     text-align: center;
 }
