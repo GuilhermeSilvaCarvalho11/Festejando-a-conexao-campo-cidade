@@ -465,7 +465,7 @@ audio::-webkit-media-controls-panel {
 }
 
 .formulario-contato button {
-    background: var(--verde-principal)
+    background: linear-gradient(to right,#f0faf4, #9effc3);
     color: var(--branco);
     border: none;
     padding: 14px;
@@ -476,7 +476,7 @@ audio::-webkit-media-controls-panel {
 }
 
 .formulario-contato button:hover {
-     background: linear-gradient(to right,#f0faf4, #9effc3);
+     background: var(--verde-principal)
 }
 
 
