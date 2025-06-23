@@ -606,16 +606,6 @@ footer {
     display: none; 
   }
 
-  .menu ul {
-    flex-direction: column;
-    width: 100%;
-    text-align:
-  }
- 
-  .menu li {
-    margin: 5px 0;
-  }
-  
   .menu li a {
     font-size: 20px;
     padding: 10px;
