@@ -464,7 +464,7 @@ audio::-webkit-media-controls-panel {
 }
 
 .formulario-contato button {
-    background-color: var(--verde-principal);
+    background-color: var(--cinza);
     color: var(--branco);
     border: none;
     padding: 14px;
