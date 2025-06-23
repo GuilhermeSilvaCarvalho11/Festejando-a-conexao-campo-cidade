@@ -593,3 +593,8 @@ footer {
   }
    
 }
+
+@media (max-width: 768px){
+  .menu:{display: block;
+    }
+}
