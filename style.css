@@ -455,19 +455,44 @@ audio::-webkit-media-controls-panel {
     gap: 15px;
 }
  
-/* Sessão formulario*/
+/* Sessão de Contato */
+.contato {
+    background-color: var(--cinza);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contato h2 {
+    font-size: 2em;
+    color: var(--verde-principal);
+    margin-bottom: 10px;
+}
+
+.contato p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+    color: var(--escuro);
+}
+
+.formulario-contato {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
 .formulario-contato input,
 .formulario-contato textarea {
-  background: var(--branco)
-  padding: 12px;
-  border: 1px solid var(--branco);
-  border-radius: 8px;
-  font-size: 16px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
 }
 
 .formulario-contato button {
-    background: var(--verde-claro)
-    color: var(--branco);
+    background-color: var(--verde-principal);
+    color: white;
     border: none;
     padding: 14px;
     border-radius: 8px;
@@ -477,8 +502,9 @@ audio::-webkit-media-controls-panel {
 }
 
 .formulario-contato button:hover {
-     background: var(--verde-principal)
+    background-color: var(--verde-claro);
 }
+
 
 
 /* Seção Rodapé */
