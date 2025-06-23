@@ -33,10 +33,7 @@ O site conta com um cabeçalho, 13 seções principais e um rodapé:
 
 O site foi inteiramente pensando em acessibilidade, por isso no final de cada sessão possuí um botão de áudio para ler o que está na tela para pessoas com dificuldades visuais. Botões interativos para dar destaque por onde o mouse está passando.
 
- A ideia é que o Jovem com duvida em sua escolha, abra o site e veja uma esperança. Já traz 
-
-
-
+ A iniciativa é que o Jovem com duvida em sua escolha, abra o site e veja uma esperança. Já traz no inicio um incentivo, "Jovens em ação no Campo", mostrando que há oportunidades no campo para jovens tambem. Após isso ele encontra dados revelando que o campo é um setor rentável e principalmente por colaboração da geração mais nova. Caso se interesse já tem um sessão em seguida demonstrando as princípais especializações do agronegócio, e depois um bloco onde ele possa ter mais detalhes desses cursos, como se ingressar e tambem um incentivo vocacional. Depois de ter se decidido o projeto apresenta um mapa no qual o jovem pode encontrar sua formação. Agora que ele conseguiu seu encaminhamento, apenas contribuimos com mais dados do agro e exposições onde pode estar aumentando mais seu conhecimento e fazer networking. Caso precisa de auxilio a pagina contem uma parte para entrar em contato conosco e tambem sobre como o projeto foi criado.
 
 ---
 
