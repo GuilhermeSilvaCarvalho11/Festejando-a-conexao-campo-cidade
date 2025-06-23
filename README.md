@@ -1,5 +1,6 @@
 # Agrinho - PROJETO AGRINHO 2025  
-## Jovem em Ação no Campo
+
+Jovem em Ação no Campo
 
 O projeto surgiu da minha vivência como jovem do ensino médio, sentindo a pressão de escolher uma profissão e uma faculdade, e refletindo sobre o tema proposto pelo Agrinho 2025: a conexão entre o campo e a cidade.
 
