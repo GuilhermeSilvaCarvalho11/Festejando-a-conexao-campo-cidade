@@ -458,7 +458,7 @@ audio::-webkit-media-controls-panel {
 /* Sessão formulario*/
 .formulario-contato input,
 .formulario-contato textarea {
-  background: linear-gradient(to right,#f0faf4, #9effc3);
+  background: var(--branco)
   padding: 12px;
   border: 1px solid var(--branco);
   border-radius: 8px;
